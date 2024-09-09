@@ -38,12 +38,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
   https://mydramalist.com/ 
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  Homepagina
+  #### Screenshot(s) van de eerste pagina (small screen): Home pagina
   <img src="readme-images/WebsiteOud/HomePaginaOud.png" width="375px" alt="MyDramaList's homepagina">
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Profiel pagina  
+  #### Screenshot(s) van de tweede pagina (small screen):Profiel pagina
   <img src="readme-images/WebsiteOud/ProfielPaginaOud.png" width="375px" alt="MyDramaList's profiel pagina">
  
 </details>
