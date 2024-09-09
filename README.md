@@ -41,7 +41,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): Home pagina
   <img src="readme-images/WebsiteOud/HomePaginaOud.png" width="375px" alt="MyDramaList's homepagina">
 
-  #### Screenshot(s) van de tweede pagina (small screen):Profiel pagina
+  #### Screenshot(s) van de tweede pagina (small screen): Profiel pagina
   <img src="readme-images/WebsiteOud/ProfielPaginaOud.png" width="375px" alt="MyDramaList's profiel pagina">
  
 </details>
