@@ -55,12 +55,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   <ul>
-  <li>  In het menu staan dingen dubbel. </li>
-  <li>  Op de Profiel pagina bevat 1 afkorting, Recs-> Recommendations </li>
-  <li>  Afbeeldingen in de News blok hebben geen omschrijving. </li>
-  <li></li>
+    <li>In het menu staan dingen dubbel. </li>
+    <li>Op de Profiel pagina bevat 1 afkorting, Recs-> Recommendations </li>
+    <li>Afbeeldingen in de News blok hebben geen omschrijving. </li>
   </ul>
 
+  <ul>
+    <li>Knoppen hebben geen toegankelijke naam.</li>
+    <li>Img geen Alt-kenmerk of geen goeie naam.</li>
+    <li>frame-element hebben geen titel.</li>
+    <li>Links hebben geen herkenbare naam.</li>
+    <li>Contrast voor- en achtergrond zijn niet goed.</li>
+    <li>Tikdoelen zijn niet groot genoeg of er is niet voldoende lege ruimte.</li>
+    <li>Kopelementen worden niet weergeven in aflopende volgorde. h1-> h2-> h6</li>
+    <li></li>
+  </ul>
 </details>
 
 
