@@ -63,6 +63,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Global code
   <ul>
+    <li>De lang-element is heel kort, geen idee wat dat betekend.</li>
     <li>Knoppen hebben geen toegankelijke naam.</li>
     <li>Img geen Alt-kenmerk of geen goeie naam.</li>
     <li>frame-element hebben geen titel.</li>
@@ -70,7 +71,53 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
     <li>Contrast voor- en achtergrond zijn niet goed.</li>
     <li>Tikdoelen zijn niet groot genoeg of er is niet voldoende lege ruimte.</li>
     <li>Kopelementen worden niet weergeven in aflopende volgorde. h1-> h2-> h6</li>
-    <li></li>
+  </ul>
+
+  Keyboard
+  <ul>
+    <li>Toen ik een keer op enter drukte ging de profiel naviagatie open. Maar na het refrence werkte het niet meer. 
+        Ik kon wel zeker naar beneden en boven</li>
+  </ul>
+
+  Mobile and touch
+  <ul>
+    <li>Ik kan het niet rond draaien, wel in en uit zoomen.</li>
+    <li>Het knopje om shows toe te voegen zijn erg klein. Ik klik dan soms mis op de titel (die leid dan naar de show pagina).</li>
+    <li>De licht en donker knop in de footer(staat dubble) is moeilijk te klikken. Kan ook zijn dat het heel langzaam is qua reactie.</li>
+  </ul>
+
+Headings
+  <ul>
+    <li>De h1 is op de homepagina hidden.</li>
+    <li>Kopelementen worden niet weergeven in aflopende volgorde. h1-> h2-> h6</li>
+  </ul>
+
+  List
+  <ul>
+    <li>Op de homepagina maken ze niet gebruik van een list (zover ik heb gezien).</li>
+  </ul>
+
+  Images
+  <ul>
+    <li>Img's bij News hebben ze geen naam.</li>
+  </ul>
+
+  Controles
+  <ul>
+    <li>Allen de navigatie maakt gebruik van een hover. In de footer zijn de links niet duidelijk.</li>
+    <li>Geen skip link.</li>
+    <li>Geen button's maar a-element.</li>
+  </ul>
+
+Appearance
+  <ul>
+    <li>De tekst wordt niet groter, allen de website (geen idee of dat het zo werkt of dat het fout gaat).</li>
+  </ul>
+
+Color contrast
+  <ul>
+    <li>Voor de normale tekst is het qua grote of kleur niet altijd goed. De kleuren zijn op sommige plekken blauw of grijs en
+        die zijn niet even duidelijk als de zwart (donkere blauw?).</li>
   </ul>
 </details>
 
