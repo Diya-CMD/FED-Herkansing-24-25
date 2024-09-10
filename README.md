@@ -54,7 +54,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  <ul>
+  <li>  In het menu staan dingen dubbel. </li>
+  <li>  Op de Profiel pagina bevat 1 afkorting, Recs-> Recommendations </li>
+  <li>  Afbeeldingen in de News blok hebben geen omschrijving. </li>
+  <li></li>
+  </ul>
 
 </details>
 
