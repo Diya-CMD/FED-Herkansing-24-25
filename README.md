@@ -54,12 +54,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
+  Content
   <ul>
     <li>In het menu staan dingen dubbel. </li>
     <li>Op de Profiel pagina bevat 1 afkorting, Recs-> Recommendations </li>
     <li>Afbeeldingen in de News blok hebben geen omschrijving. </li>
   </ul>
 
+  Global code
   <ul>
     <li>Knoppen hebben geen toegankelijke naam.</li>
     <li>Img geen Alt-kenmerk of geen goeie naam.</li>
