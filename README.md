@@ -128,14 +128,15 @@ Color contrast
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de hele Home pagina: 
+  <img src="readme-images/WebsiteOud/HomePaginaOudSchets.jpg" width="375px" alt="breakdown van de hele home pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### de hele Profiel pagina: 
+  <img src="readme-images/WebsiteOud/ProfielPaginaOudSchets" width="375px" alt="breakdown van de hele profiel pagina">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### dynamisch deel (menu): 
+  <img src="readme-images/WebsiteOud/MenuOudschets.jpg" width="375px" alt="breakdown van een menu">
+  <img src="readme-images/WebsiteOud/ProfielMenuOudSchets.jpg" width="375px" alt="breakdown van een profiel menu">
 
 </details>
 
