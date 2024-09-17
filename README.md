@@ -132,7 +132,7 @@ Color contrast
   <img src="readme-images/WebsiteOud/HomePaginaOudSchets.jpg" width="375px" alt="breakdown van de hele home pagina">
 
   ### de hele Profiel pagina: 
-  <img src="readme-images/WebsiteOud/ProfielMenuOudSchets.jpg" width="375px" alt="breakdown van de hele profiel pagina">
+  <img src="readme-images/WebsiteOud/ProfielPaginaOudSchets.jpg" width="375px" alt="breakdown van de hele profiel pagina">
 
   ### dynamisch deel (menu): 
   <img src="readme-images/WebsiteOud/MenuOudschets.jpg" width="375px" alt="breakdown van een menu">
