@@ -162,7 +162,7 @@ Color contrast
 
   |     Diya        | Giulietta          | Keysha    | Thi        |
   | ---             | ---                | ---          | ---              |
-  | section switch  | en dit             | en ik dit    | en dan ik dat    |
+  | section switch  | form             | en ik dit    | en dan ik dat    |
   | Rating          | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...             | ...                | ...          | ...              |
 
