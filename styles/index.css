@@ -4,6 +4,15 @@
   
   }
 
+  :root {
+	--header-background: #00619d ;
+	--color-text:#111;
+	--color-background: rgb(233,234,237);
+
+	--section-background: #eee; 
+
+	--hover-text: #2196f3; 
+}
 
 section ul { 
     overflow: auto; 
@@ -13,5 +22,6 @@ section ul {
 } 
 
 section ul li { 
-    display: inline-block; 
+    display: inline-block;
+    
 } 
