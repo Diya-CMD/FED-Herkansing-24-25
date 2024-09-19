@@ -1,6 +1,5 @@
 *, *::after, *::before {
   box-sizing:border-box;
-  overflow-x: hidden;
   margin: 0;
   padding: 0;  
 
@@ -52,16 +51,6 @@ main section{
 	padding: 1em;
 }
 
- /* section ul{
-	overflow: auto;
-	white-space: nowarp;
-	margin: 1em;
-
-}
-
-section ul li{
-	display: inline-block;
-} */
 
 a{
 	text-decoration: none;

@@ -1,0 +1,17 @@
+*, *::after, *::before {
+    box-sizing:border-box;
+    overflow-x: hidden;
+  
+  }
+
+
+section ul { 
+    overflow: auto; 
+    white-space: nowrap; 
+    margin: 1em; 
+    padding: 0; 
+} 
+
+section ul li { 
+    display: inline-block; 
+} 
