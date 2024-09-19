@@ -25,7 +25,7 @@ body{
 }
 
 header{
- background-color: var(--header-background);
+ 	background-color: var(--header-background);
 }
 
 main{
@@ -40,9 +40,13 @@ main{
 }
 
 footer{
- background-color: var(--footer-background);
- color: var(--footer-tekst);
- 
+	 background-color: var(--footer-background);
+	color: var(--footer-tekst);
+ 	padding: 1em;
+}
+
+footer a{
+	color: var(--footer-tekst);
 }
 
 main section{

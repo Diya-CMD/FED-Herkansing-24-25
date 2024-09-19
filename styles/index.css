@@ -14,14 +14,14 @@
 	--hover-text: #2196f3; 
 }
 
-section ul { 
+main section ul { 
     overflow: auto; 
     white-space: nowrap; 
     margin: 1em; 
     padding: 0; 
 } 
 
-section ul li { 
+main section ul li { 
     display: inline-block;
     
 } 
