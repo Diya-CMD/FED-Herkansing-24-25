@@ -2,30 +2,31 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;  
 }
-
-
-
-
 
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
+	--header-background: #00619d ;
 	--color-text:#111;
 	--color-background:#eee;
+	--footer-background: rgb(42,43,60);
 }
-
-
-
 
 
 /****************/
 /* JOUW STYLING */
 /****************/
+header{
+ background-color: var(--header-background);
+}
 
-/* jouw code */
+footer{
+ background-color: var(--footer-background);
+}
 

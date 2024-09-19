@@ -150,17 +150,21 @@ Color contrast
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  #### Section switch
+  <img src="readme-images/bespreking/w1.1.png" idth="375px" alt="Section switch" >
+
+  #### Rating
+   <img src="readme-images/bespreking/w1.2.png" idth="375px" alt="Rating">
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  |     Diya      | Giulietta          | Keysha    | Thi        |
-  | ---           | ---                | ---          | ---              |
-  | Rating        | en dit             | en ik dit    | en dan ik dat    |
-  | Grafiek       | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...           | ...                | ...          | ...              |
+  |     Diya        | Giulietta          | Keysha    | Thi        |
+  | ---             | ---                | ---          | ---              |
+  | section switch  | en dit             | en ik dit    | en dan ik dat    |
+  | Rating          | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...             | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
