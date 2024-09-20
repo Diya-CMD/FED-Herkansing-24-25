@@ -55,12 +55,12 @@ main section{
 	padding: 1em;
 }
 
-a{
+ul li a{
 	text-decoration: none;
 	color: var(--color-text);
 }
 
-a:hover{
+ul li a:hover{
 	text-decoration: none;
 	color: var(--hover-text);
 }

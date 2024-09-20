@@ -150,6 +150,11 @@ Color contrast
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
+  Voor het eerste voortgangsgesprek heb ik aan de homepagina gewerkt. Voor de eerste les heb ik wel alle sections in de HTML gezet, anders leek het zo weinig. 
+
+  Sommige sections lijken veel op elkaar, dus die kan ik dan weghalen. 
+
+
   #### Section switch
   <img src="readme-images/bespreking/w1.1.png" idth="375px" alt="Section switch" >
 
@@ -160,20 +165,24 @@ Color contrast
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  |     Diya        | Giulietta          | Keysha    | Thi        |
-  | ---             | ---                | ---          | ---              |
-  | section switch  | form             | en ik dit    | en dan ik dat    |
-  | Rating          | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...             | ...                | ...          | ...              |
+  |     Diya        | Giulietta          | Keysha         | Thi                  |
+  | ---             | ---                | ---            | ---                  |
+  | section switch  | form               | Section switch | Slide show           |
+  | Rating          | Pagina veranderd   | List           | span before:: after::|
+  | ...             | ...                | ...            | ...                  |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Section switch-> Hoeft niet te maken. Maar ik wil het wel, omdat het er gewoon  interessant lijkt en ik wil wel nieuwe dingen leren.
+  - Rating-> gewoon faken
+  - Hover werkte niet-> Hover werkt niet op telefoon formaat. ☹
+    - Hover image, transition, opacity
+  - More '>>'->  aanpassen, niet de driekhoek van het toetsenbord gebruiken. 
+  - Grid maken voor je lijst of voor je lijst.
+  - h2::before{}
+  - <h1><img scr="" alt="website titel"></h1>
 
 </details>
 
