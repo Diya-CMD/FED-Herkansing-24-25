@@ -14,14 +14,18 @@
 	--hover-text: #2196f3; 
 }
 
-main section ul { 
+section:nth-last-of-type(1) p {
+    
+}
+
+section:nth-last-of-type(4) ul { 
     overflow: auto; 
     white-space: nowrap; 
     margin: 1em; 
     padding: 0; 
 } 
 
-main section ul li { 
+section:nth-last-of-type(4) ul li { 
     display: inline-block;
     
 } 

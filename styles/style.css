@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;  
 
+  font-family: sans-serif;
+
 }
 
 :root {
@@ -10,9 +12,12 @@
 	--color-text:#111;
 	--color-background: rgb(233,234,237);
 
-	--section-background: #eee; 
+	--nav-background:#dcdfe6;
+
+	--section-background: #ffffff; 
 
 	--hover-text: #2196f3; 
+	--drop-shadow: rgb(197, 197, 197);
 
 	--footer-background: rgb(42,43,60);
 	--footer-tekst: #eee; 
@@ -26,7 +31,96 @@ body{
 
 header{
  	background-color: var(--header-background);
+/*BURGER MENU CODE VAN DE LES*/
+	 display: flex; 
+	 justify-content: space-between;
+	 align-items: center; 
+
 }
+
+header a{
+	padding:.5em 0;
+	color:var(--general-color);
+	text-decoration:none;
+
+}
+
+header button {
+	padding:.5em;
+	
+	/* icon en tekst met gap-je naast elkaar */
+	display:flex;
+	align-items:center;
+	gap:.25em;
+	
+	/* standaard styling aanpassen */
+	background-color:var(--header-background);
+	border:none;
+	border-radius:.25em; 
+	font:inherit;
+	text-align:center;
+	color:var(--button-color);
+  }
+  
+  header button img {
+	height:2em;
+	width: 2em;
+  }
+
+
+  header > button {
+	order: -1;
+  }
+
+  nav {
+	padding:1em;
+	
+	display:grid;
+	align-content:flex-end;
+	gap:1em;
+	
+	background: var(--nav-background);
+	position: fixed;
+	inset: 0;
+	translate: 100%;       
+	  transition: 1s;
+  }
+
+  nav.toonMenu {
+	translate: 0;
+  }
+
+  nav ul { 
+	margin:0; 
+	padding:0em;
+	list-style:none;
+  }
+
+  nav a {
+	/* icon en tekst met gap-je naast elkaar */
+	display:flex;
+	align-items:center;
+	column-gap:.25em;
+	
+	border-bottom:solid 1px var(--menu-border);
+  }
+  
+  nav a img {
+	width:auto;
+	height:2em;
+  }
+  
+  nav a.active {
+	font-weight:bold;
+  }
+  
+
+  nav button {
+	justify-self:start;
+	background-color: var(--nav-background);
+   }
+  
+
 
 main{
 	
@@ -39,6 +133,31 @@ main{
 
 }
 
+main section{
+	background-color: var(--section-background);
+	margin: 1em;
+	padding: 1em;
+	filter: drop-shadow(0 0 0.25rem var(--drop-shadow));
+}
+
+main ul li a{
+	text-decoration: none;
+	color: var(--color-text);
+}
+
+main ul li a:hover{
+	text-decoration: none;
+	color: var(--hover-text);
+}
+
+h1{
+	font-size: 2em;
+}
+
+img{
+	width: 7em;
+}
+
 footer{
 	 background-color: var(--footer-background);
 	color: var(--footer-tekst);
@@ -49,25 +168,7 @@ footer a{
 	color: var(--footer-tekst);
 }
 
-main section{
-	background-color: var(--section-background);
-	margin: 1em;
-	padding: 1em;
-}
 
-ul li a{
-	text-decoration: none;
-	color: var(--color-text);
-}
-
-ul li a:hover{
-	text-decoration: none;
-	color: var(--hover-text);
-}
-
-img{
-	width: 7em;
-}
 
 
 
