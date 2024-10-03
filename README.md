@@ -195,18 +195,29 @@ Color contrast
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  #### Carousal
+  Hoe het eruit moet zien:
+   <img src="readme-images/bespreking/w2.1.png" idth="375px" alt="Carousal" >
+  Wat ik nu heb:
+   <img src="readme-images/bespreking/w2.2.png" idth="375px" alt="Carousal" >
+    - Ik heb aan Chatgpt gevraagd hoe ik dit zou maken, heb ik de divs veranderd naar section's en andere dingen. En nu wilt hij niet helemaal werken. 
+  - Ook vroeg ik mij af of we een <strong>a om de article<strong> kunnen zetten of dat ik een ul, en dan a als article. Want dat heb ik bij andere stukken zo gedaan.
+
+  #### Nth-last-of-child
+  <img src="readme-images/bespreking/w2.3" idth="375px" alt="nth-last-of-child probleem" >
+  <img src="readme-images/bespreking/w2.4" idth="375px" alt="nth-last-of-child probleem" >
+  -Ik heb mijn code in een section gezet, die section benoemt in de css met behulp van nth-last-of-child. Maar hij wilt niks doen. Bij section 4 wilt hij het wel doen, maar bij de rest van de sections niet en ik heb geen idee waarom. 
+
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  |     Diya        | Giulietta     | Keysha         | Thi          |
-  | ---             | ---           | ---            | ---          |
-  |   carousel      | *             | *              | Navigatie    |
-  | a over article? | *             | *              | img size     |
-  | ...             | ...           | ...            | ...          |
+  |     Diya          | Giulietta     | Keysha         | Thi          |
+  | ---               | ---           | ---            | ---          |
+  |   carousel        | *             | *              | Navigatie    |
+  | nth-last-of-child | *             | *              | img size     |
+  | ...               | ...           | ...            | ...          |
 
 
   ### Verslag van meeting
