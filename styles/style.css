@@ -175,6 +175,14 @@ footer a{
 	text-decoration:none;
 }
 
+footer section{
+	margin: 1em;
+}
+
+footer ul li{
+	margin: 0;
+	padding: 0;
+}
 
 
 

@@ -15,13 +15,17 @@
 }
 
 /*section 2*/
-section:nth-last-of-type(2) ul li { 
+main section:nth-last-of-type(2) ul li { 
         display: grid;
         grid-template-columns: 0.5fr 1fr;
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
 
+}
+
+main section:nth-last-of-type(2) img{
+    width: 2em;
 }
 
 /*section 4*/
