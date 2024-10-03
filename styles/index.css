@@ -15,48 +15,63 @@
 }
 
 /*section 2*/
-main section:nth-last-of-type(2) ul li { 
+section:nth-of-type(2) ul{
+    overflow: auto; 
+    white-space: nowrap; 
+    margin: 1em; 
+}
+
+section:nth-of-type(2) ul:nth-of-type(1) li { 
+    display: inline-block;
+
+    margin-left: 1em;
+
+}
+
+
+section:nth-of-type(2) ul li { 
         display: grid;
         grid-template-columns: 0.5fr 1fr;
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
 
+
 }
 
-main section:nth-last-of-type(2) img{
-    width: 2em;
+section:nth-of-type(2) img{
+    width: 6em;
 }
 
-/*section 4*/
-section:nth-last-of-type(4) img { 
+/**********section 4**********/
+section:nth-of-type(4) img { 
     width: 9.3em; 
 } 
 
-section:nth-last-of-type(4) ul { 
+section:nth-of-type(4) ul { 
     overflow: auto; 
     white-space: nowrap; 
     margin: 1em; 
 } 
 
-section:nth-last-of-type(4) ul li { 
+section:nth-of-type(4) ul li { 
     display: inline-block;
     padding: 0;
     padding-left: 0.5em;
 
 } 
 
-section:nth-last-of-type(4) ul li p { 
+section:nth-of-type(4) ul li p { 
     padding: 0.2em;
 
 } 
 
-section:nth-last-of-type(4) ul li a p { 
+section:nth-of-type(4) ul li a p { 
     color: var(--hover-text);
     font-weight: bold;
 } 
 
 /*section 9*/
-section:nth-last-of-type(9) button { 
+section:nth-of-type(7) button { 
     width: 1em; 
 }

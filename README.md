@@ -223,9 +223,9 @@ Color contrast
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - Font downloaden op google. Reset refresh. Inspect-> Network-> Font.
+  - nth-of-type telt van 1t/m verder
+  - Mag twee navs
 - ...
 
 </details>
