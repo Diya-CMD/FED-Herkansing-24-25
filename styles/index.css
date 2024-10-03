@@ -33,18 +33,26 @@ section:nth-last-of-type(4) ul {
     overflow: auto; 
     white-space: nowrap; 
     margin: 1em; 
-    padding: 0; 
 } 
 
 section:nth-last-of-type(4) ul li { 
     display: inline-block;
+    padding: 0;
+    padding-left: 0.5em;
+
 } 
 
 section:nth-last-of-type(4) ul li p { 
     padding: 0.2em;
+
 } 
 
 section:nth-last-of-type(4) ul li a p { 
     color: var(--hover-text);
+    font-weight: bold;
 } 
 
+/*section 9*/
+section:nth-last-of-type(9) button { 
+    width: 1em; 
+}
