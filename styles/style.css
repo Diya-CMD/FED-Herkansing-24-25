@@ -172,6 +172,7 @@ footer{
 
 footer a{
 	color: var(--footer-tekst);
+	text-decoration:none;
 }
 
 
