@@ -215,7 +215,7 @@ Color contrast
 
   |     Diya          | Giulietta     | Keysha         | Thi          |
   | ---               | ---           | ---            | ---          |
-  |   carousel        | *             | *              | Navigatie    |
+  |   carousel        |  video en nav | extra ruimte in de nav              | Navigatie    |
   | nth-last-of-child | *             | *              | img size     |
   | ...               | ...           | ...            | ...          |
 
@@ -226,7 +226,15 @@ Color contrast
   - Font downloaden op google. Reset refresh. Inspect-> Network-> Font.
   - nth-of-type telt van 1t/m verder
   - Mag twee navs
-- ...
+  - position: fixed, om elementen vast te zetten. top: 0, right:0, left:0. 
+  - Sluitmenu naar rechts. 
+  - justify-self:end;
+
+  - Lelijke manier icoon veranderen: filter: invert(1);. Van wit naar zwart of zwart naar wit. 
+  - Mooie manier icoon veranderen: svg openen in studio code, de link pakken en in je html zetten. svg benoemen in de CSS en kleur veranderen
+
+
+
 
 </details>
 
