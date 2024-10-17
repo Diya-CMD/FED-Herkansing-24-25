@@ -6,7 +6,6 @@ const deNav= document.querySelector("header nav");
 // stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit
 menuOpenButton.onclick =  burgerMenu; 
 
-
 // stap 3: voeg in de functie een class toe aan de nav. "alleen open" is add.
 function burgerMenu() {
   deNav.classList.add("toonMenu");
@@ -28,3 +27,6 @@ menuSluitButton.onclick = sluitMenu;
 function sluitMenu(){
    deNav.classList.remove("toonMenu");
 }
+
+
+//Section 1 carousel

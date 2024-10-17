@@ -213,11 +213,11 @@ Color contrast
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  |     Diya          | Giulietta     | Keysha         | Thi          |
-  | ---               | ---           | ---            | ---          |
-  |   carousel        |  video en nav | extra ruimte in de nav              | Navigatie    |
-  | nth-last-of-child | *             | *              | img size     |
-  | ...               | ...           | ...            | ...          |
+  |     Diya          | Giulietta          | Keysha                    | Thi           |
+  | ---               | ---                | ---                       | ---           |
+  |   carousel        |  video background  | extra ruimte in de nav    | Navigatie x   |
+  | nth-last-of-child | nav sticky         | kleur veranderen svg      | img size      |
+  | ...               | ...                | ...                       | ...           |
 
 
   ### Verslag van meeting
@@ -261,19 +261,26 @@ Color contrast
 <details>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  ### Tweede menu
+  <img src="readme-images/bespreking/w.3.1.png" idth="375px" alt="Tweede menu" >
+  Ik heb nog problemen met mijn nav. Maar daarbuiten heb ik nog een menu maar ik heb geen idee hoe ik die
+  moet toevoegen. Ik heb al online gekeken, maar met de javascript geeft heb mij gewoon hoofdpijn. 
+
+  ### Speciale button
+  <img src="readme-images/bespreking/w.3.2.1.png" idth="375px" alt="speciale butten" >
+  In mijn footer heb ik meerderekeren deze knop, maar ik heb ook echt geen idee hoe ik deze moet maken. Of hoe ze uberhaupt heten. 
+  <img src="readme-images/bespreking/w.3.2.2.png" idth="375px" alt="speciale butten hover" >
+  Als je er overheen hovered veranderd de kleur. Animatie???
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  |     Diya          | Giulietta          | Keysha  | Thi           |
+  | ---               | ---                | ---     | ---           |
+  |   andere menu     |                    |         |               |
+  | speciale button   |                    |         |               |
+  | ...               | ...                | ...     | ...           |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
