@@ -22,27 +22,70 @@
 
 /*section 1*/
 section:nth-of-type(1) li:nth-of-type(1) img{
-    width: 97%;
+    width: 100%;
 }
 
-section:nth-of-type(1) h2{
-    color: var(--footer-tekst);
+main section:nth-of-type(1) {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+main section:nth-of-type(1) ul  {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+}
+
+main section:nth-of-type(1) li {
+    min-width: 100%;
+ 
+}
+
+main section:nth-of-type(1) h2 {
+    color: var(--section-background);
+    padding: 0.5em;
+    padding-bottom: 0;
 
     position: absolute;
-    /* bottom: ;
-    right:;
-    width:; 
-    height:; */
+    bottom: 1em;
 }
 
-section:nth-of-type(1) p{
+main section:nth-of-type(1) p {
     color: var(--blauw-text);
+    text-transform: uppercase;
+    padding: 0.5em;
+    padding-bottom: 0;
 
     position: absolute;
-    /* top: ;
-    right:;
-    width:;
-    height:; */
+    bottom: 5em;
+
+}
+
+main section:nth-of-type(1) button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 /*EIND***section 1*/
 

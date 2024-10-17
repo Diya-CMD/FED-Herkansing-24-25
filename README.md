@@ -276,19 +276,20 @@ Color contrast
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  |     Diya          | Giulietta          | Keysha  | Thi           |
-  | ---               | ---                | ---     | ---           |
-  |   andere menu     |                    |         |               |
-  | speciale button   |                    |         |               |
-  | ...               | ...                | ...     | ...           |
+  |     Diya          | Giulietta              | Keysha  | Thi           |
+  | ---               | ---                    | ---     | ---           |
+  |   andere menu     |  img + tekst stijlen   |         |               |
+  | speciale button   |                        |         |               |
+  | ...               | ...                    | ...     | ...           |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - display flex 
+  - flex wrap
   - nog een punt
-  - ...
+  - afbeelding grijze filter over heen-> ::before (even video zoeken)
+  - Special button, de tekst wegghalen daar de svg in doen en vormgeven. 
 
 </details>
 
