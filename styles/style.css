@@ -60,8 +60,9 @@ header button img {
 }
 
 nav{
-	padding: 1em;
-	background-color: var(--header-background);
+	margin-left: 3em;
+	padding: 2em;
+	background-color: var(--nav-background);
 
 	display: grid; 
 
@@ -88,7 +89,7 @@ nav a{
    }
 
 header nav button{
-	background-color: var(--header-background);
+	background-color: var(--nav-background);
 	padding: 1em;
 }
 /*EIND*****BURGER MENU + CODE VAN DE LES****/
