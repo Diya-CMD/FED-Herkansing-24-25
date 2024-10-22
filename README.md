@@ -247,9 +247,10 @@ Color contrast
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
+  ### Verbeteringen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  ### Wat ik nog moet verbeteren
 </details>
 
 
