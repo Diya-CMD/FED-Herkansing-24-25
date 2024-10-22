@@ -34,6 +34,13 @@ header{
 /*BURGER MENU + CODE VAN DE LES*/
 	display: flex;
 	align-items: center;
+
+	justify-content: space-between;
+}
+
+/* KIJKEN OF NAV??? */
+header section{
+	display: flex;
 }
 
 header img {
@@ -43,6 +50,7 @@ header img {
 
 header a{
 	text-decoration:none;
+	color:var(--color-text)
 }
 
 header button{
@@ -61,6 +69,7 @@ header button img {
 
 header button:nth-of-type(1){
 	order: 4;
+	
 }
 
 nav{
@@ -71,6 +80,7 @@ nav{
 	display: grid; 
 
 	position: fixed;
+	z-index: 100; /*  boven de position:... elementen uit komen */
 	inset: 0;
 	translate: 100%;       
 	transition: 1s;
@@ -78,6 +88,7 @@ nav{
 
 nav.toonMenu {
 	translate: 0;
+	position: absolute;
   }
 
 nav a{

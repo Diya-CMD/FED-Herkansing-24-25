@@ -1,6 +1,6 @@
 
 // stap 1: zoek de menu-button op en sla die op in een variabele. De selectie is hetzelfde als in CSS en Java. > is voor een direct kind.
-const menuOpenButton= document.querySelector("header > button"); 
+const menuOpenButton= document.querySelector("header section > button"); 
 const deNav= document.querySelector("header nav"); 
 
 // stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit
