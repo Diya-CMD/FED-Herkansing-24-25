@@ -159,6 +159,7 @@ main section:nth-of-type(2) ul:nth-of-type(2) h3{
     display: flex;
     flex-wrap: wrap;
     margin-left: 0.5em;
+    color: var(--color-text);
 
 }
 
