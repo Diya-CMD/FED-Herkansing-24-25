@@ -251,6 +251,7 @@ Color contrast
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   ### Wat ik nog moet verbeteren
+  - Hij zie de h3 binnen de a niet.
 </details>
 
 

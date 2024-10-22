@@ -21,15 +21,12 @@
 }
 
 /*section 1*/
-
-
 section:nth-of-type(1) li:nth-of-type(1) img{
     width: 100%;
 }
 
 /* Robinson, B. L. (2018, 30 april). Use CSS ::before and ::after for simple, spicy image overlays. bryanlrobinson.com. https://bryanlrobinson.com/blog/how-to-css-after-elements-for-background-overlays/ */
-
-section:nth-of-type(1) li:nth-of-type(1) img::after{
+/* section:nth-of-type(1) li:nth-of-type(1) img::after{
     content: "";
     display: flex;
     width: 100%;
@@ -41,13 +38,14 @@ section:nth-of-type(1) li:nth-of-type(1) img::after{
     left: 0;
 
     
-    /* diepte */
+    /* diepte 
     z-index: 90;
-}
 
+}
+*/
 section:nth-of-type(1) li:nth-of-type(1){
     position: relative;
-} 
+}  */
 
 main section:nth-of-type(1) {
     position: relative;
