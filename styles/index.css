@@ -212,91 +212,46 @@ main section:nth-of-type(2) > a{
 }
 /*EIND***section 2*/
 
-/*section 3*/
-main section:nth-of-type(3) img { 
+/* SECTION 3 + 4 */
+main section:nth-of-type(3) img, main section:nth-of-type(4) img { 
     width: 9.3em; 
 } 
 
-main section:nth-of-type(3) ul { 
+main section:nth-of-type(3) ul, main section:nth-of-type(4) ul { 
     overflow: auto; 
     white-space: nowrap; 
     margin: 1em; 
 } 
 
-main section:nth-of-type(3) ul li { 
+main section:nth-of-type(3) ul li, main section:nth-of-type(4) ul li { 
     display: inline-block;
     padding: 0;
     padding-left: 0.5em;
 
 } 
 
-main section:nth-of-type(3) ul li p { 
+main section:nth-of-type(3) ul li p, main section:nth-of-type(4) ul li p { 
     padding: 0.2em;
 
 } 
 
-main section:nth-of-type(3) ul li a p { 
+main section:nth-of-type(3) ul li a p, main section:nth-of-type(4) ul li a p { 
     color: var(--hover-text);
     font-weight: bold;
 } 
 
-main section:nth-of-type(3) > a  { 
-text-decoration: none;
-color: var(--color-text);
-
-display: flex;
-justify-content: end;
+main section:nth-of-type(3) ul li a , main section:nth-of-type(4) ul li a  { 
+    text-decoration: none;
 }
-
-
-
-/*EIND***section 3*/
+/* EIND SECTION 3 + 4 */
 
 /*section 4*/
-main section:nth-of-type(4) img { 
-    width: 9.3em; 
-} 
 
-main section:nth-of-type(4) ul { 
-    overflow: auto; 
-    white-space: nowrap; 
-    margin: 1em; 
-} 
-
-main section:nth-of-type(4) ul li { 
-    display: inline-block;
-    padding: 0;
-    padding-left: 0.5em;
-
-} 
-
-main section:nth-of-type(4) ul li p { 
-    padding: 0.2em;
-} 
-
-main section:nth-of-type(4) ul li a p { 
-    color: var(--hover-text);
-    font-weight: bold;
-} 
-
-main section:nth-of-type(4) > a  { 
-    text-decoration: none;
-    color: var(--color-text);
-    
-    display: flex;
-    justify-content: end;
-}
 
 /*EIND***section 4*/
 
 /*section 5*/
-main section:nth-of-type(5) > a  { 
-    text-decoration: none;
-    color: var(--color-text);
-    
-    display: flex;
-    justify-content: end;
-}
+
 /*EIND***section 5*/
 
 /*section 6*/
@@ -333,22 +288,20 @@ main section:nth-of-type(6) li img{
 
 }
 
-main section:nth-of-type(6) > a  { 
-    text-decoration: none;
-    color: var(--color-text);
-    
-    display: flex;
-    justify-content: end;
-}
+
 
 /*EIND***section 6*/
 
-/*section 7*/
-main section:nth-of-type(7) > a  { 
+
+/*EIND***section 7*/
+
+/* Alle sections */
+section:nth-of-type(3) > a, section:nth-of-type(4) > a, section:nth-of-type(5) > a, section:nth-of-type(6) > a,  section:nth-of-type(7) > a { 
     text-decoration: none;
     color: var(--color-text);
     
     display: flex;
     justify-content: end;
-}
-/*EIND***section 7*/
+    }
+    
+    
