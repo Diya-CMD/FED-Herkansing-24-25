@@ -290,28 +290,58 @@ main section:nth-of-type(6) li img{
 /*EIND***section 6*/
 
 /* section 7  */
-main section:nth-of-type(7) ul{
+main section:nth-of-type(7) ul:nth-of-type(1){
     overflow: auto; 
     white-space: nowrap; 
     margin: 1em; 
 }
 
-main section:nth-of-type(7) ul li{ 
+main section:nth-of-type(7) ul:nth-of-type(1) li{ 
     display: inline-block;
 
-}
+} 
 
 main section:nth-of-type(7) a{
     text-decoration: none;
+    color: var(--color-text);
+}
+
+
+main section:nth-of-type(7) ul:nth-of-type(2) li a{
+    /* display: grid;
+    grid-template-columns: 0.2fr 0.3fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr; */
+
+    display: flex;
+    align-content: flex-start;
+}
+
+main section:nth-of-type(7) ul:nth-of-type(2) a img{
+    width: 5em;
+}
+
+main section:nth-of-type(7) ul:nth-of-type(2) li button{ 
+    height: 2em;
+    width: 9%;
+}
+
+main section:nth-of-type(7) ul:nth-of-type(2) li button img{ 
+    width: 1.5em;
 }
 
 main section:nth-of-type(7) a h3{
+    /* grid-column: 3;
+    grid-row: 1; */
+
     color: var(--hover-text);
+    
 }
 
 main section:nth-of-type(7) a p{
     color: var(--color-text);
 }
+
+
 
 /*EIND***section 7*/
 
