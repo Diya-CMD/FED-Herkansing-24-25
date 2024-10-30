@@ -23,88 +23,62 @@
 }
 
 /*section 1*/
-section:nth-of-type(1) li:nth-of-type(1) img{
-    width: 100%;
-}
+main section:nth-of-type(1){
+    margin: 1em;
+    padding: 0;
 
-/* Robinson, B. L. (2018, 30 april). Use CSS ::before and ::after for simple, spicy image overlays. bryanlrobinson.com. https://bryanlrobinson.com/blog/how-to-css-after-elements-for-background-overlays/ */
-/* section:nth-of-type(1) li:nth-of-type(1) img::after{
-    content: "";
-    display: flex;
-    width: 100%;
-    height: 100%;
-    background-color: #00619d;
-    opacity: .5;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    
-    /* diepte 
-    z-index: 90;
-
-}
-*/
-section:nth-of-type(1) li:nth-of-type(1){
     position: relative;
-}  */
-
-main section:nth-of-type(1) {
-    position: relative;
-    margin: auto;
     overflow: hidden;
-    border: 1px solid #ddd;
 }
 
-main section:nth-of-type(1) ul  {
+main section:nth-of-type(1) img:nth-of-type(1){
+    width: 40em;
     display: flex;
-    /* transition: transform 0.5s ease-in-out; */
-    will-change: transform;
+    align-items: center;
 }
 
-main section:nth-of-type(1) li {
-    min-width: 100%;
+main section:nth-of-type(1) img:nth-of-type(2){
+    width: 1em;
+
+    position: absolute;
+    bottom: 1em;
+    left: 7em;
+}
+
+main section:nth-of-type(1) img:nth-of-type(3){
+    width: 1em;
+
+    position: absolute;
+    bottom: 1em;
+    left: 10em;
 }
 
 main section:nth-of-type(1) h2 {
-    color: var(--section-background);
+    color: var(--footer-tekst);
+    /* background-color: var(--color-text); */
     padding: 0.5em;
     padding-bottom: 0;
 
     position: absolute;
-    bottom: 1em;
+    bottom: 2em;
 }
 
-main section:nth-of-type(1) p {
+main section:nth-of-type(1) p:nth-of-type(1) {
     color: var(--blauw-text);
     text-transform: uppercase;
     padding: 0.5em;
     padding-bottom: 0;
 
     position: absolute;
-    bottom: 5em;
+    bottom: 12em;
 }
 
-main section:nth-of-type(1) button {
+main section:nth-of-type(1) p:nth-of-type(2) {
+    color: var(--gray-text);
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: var(--section-background);
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    z-index: 1;
+    bottom: 1em;
 }
 
-button.prev {
-    left: 10px;
-}
-
-button.next {
-    right: 10px;
-}
 
 /*EIND***section 1*/
 
@@ -351,8 +325,6 @@ main section:nth-of-type(7) ul:nth-of-type(2) li button{
     right: 229px;
 } */
 
-
-
 main section:nth-of-type(7) ul:nth-of-type(2) li button img{ 
     width: 1.5em;
     background-color: var(--nav-background);
@@ -369,7 +341,10 @@ main section:nth-of-type(7) ul:nth-of-type(2) li span{
     padding: 0;
 }
 
-span:nth-of-type(1):before, span:nth-of-type(2):before, span:nth-of-type(3):before, span:nth-of-type(4):before{
+span:nth-of-type(1):before, 
+span:nth-of-type(2):before, 
+span:nth-of-type(3):before, 
+span:nth-of-type(4):before{
     text-shadow: 0 0 2px var(--drop-shadow);
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
