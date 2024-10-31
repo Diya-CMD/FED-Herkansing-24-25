@@ -28,7 +28,12 @@
   body{
 	  background-color: var(--color-background);
   }
+
+  a, abbr{
+	text-decoration: none;
+  }
   
+
   header{
 	  background-color: var(--header-background);
 	  padding: .5em;
@@ -68,7 +73,6 @@
   } 
   
   header a{
-	  text-decoration:none;
 	  color:var(--color-text)
   }
   
@@ -169,9 +173,8 @@
 	  flex-wrap: wrap;
   }
   
-  footer ul li a, footer ul li a abbr{
+  footer ul li a{
 	 color: var(--footer-tekst);
-	 text-decoration:none;
 	 font-size: 0.8em;
   }
   
