@@ -19,3 +19,95 @@
 	--footer-background: rgb(42,43,60);
 	--footer-tekst: #eee; 
 }
+
+a, abbr{
+	text-decoration: none;
+  }
+
+  main section:nth-of-type(2) h2,
+  main section:nth-of-type(3) h2{
+	font-size: 1em;
+	padding-bottom: 0.5em ;
+  }
+  
+/* Section 1 */
+main section:nth-of-type(1) ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main section:nth-of-type(1) ul li{
+	margin: 0.15em;
+}
+
+main section:nth-of-type(1) button{
+    background: var(--section-background);
+    border: 1px solid var(--nav-background); 
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 10px;
+    box-shadow: 1px 1px var(--drop-shadow);
+
+	font-size: 15px;
+}
+/* EIND section 1 */
+
+/* Section 2 */
+/* EIND section 2 */
+
+/* Section 3 */
+main section:nth-of-type(3) ul a {
+	display: grid;
+    grid-template-columns: 0.1fr 1fr;
+	grid-template-rows: 0.4fr 0.3fr 0.6fr;
+
+}
+
+main section:nth-of-type(3) li{
+	border-top: 1px solid var(--nav-background);
+    border-bottom: 1px solid var(--nav-background);
+
+	display: flex;
+
+	padding: 0.5em;
+}
+
+main section:nth-of-type(3) ul li img{
+	width: 2.3em;
+    grid-row: 1/4;
+}
+
+main section:nth-of-type(3) a h3{
+	color: var(--hover-text);
+	padding-left: 0.5em;
+}
+
+main section:nth-of-type(3) a p{
+	font-size: 0.9em;
+	color: var(--color-text);
+	padding-left: 0.5em;
+	margin: 0.1em;
+}
+
+main section:nth-of-type(3) a p:nth-of-type(2){
+	font-size: 0.8em;
+	color: var(--gray-text);
+}
+
+main section:nth-of-type(3) ul li button{ 
+    background: var(--section-background);
+    border: 1px solid var(--gray-text); 
+	border-radius: 3px;
+	cursor: pointer;
+	width: 2.5em;
+	height: 1.5em;
+
+	margin-left: 0.5em;
+}
+
+main section:nth-of-type(3) ul li button img{ 
+    width: 1em;
+	margin-top:2.3px ;
+}
+
+/* EIND secion 3 */
