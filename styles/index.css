@@ -465,55 +465,101 @@ main section:nth-of-type(7) a{
 }
 
 /* Tweede ul */
-main section:nth-of-type(7) ul:nth-of-type(2) li:nth-of-type(1), 
-main section:nth-of-type(7) ul:nth-of-type(2) li:nth-of-type(2),
-main section:nth-of-type(7) ul:nth-of-type(2) li:nth-of-type(3),
-main section:nth-of-type(7) ul:nth-of-type(2) li:nth-of-type(4), 
-main section:nth-of-type(7) ul:nth-of-type(2) li:nth-of-type(5){ 
-    display: grid;
-    grid-template-columns: 0.1fr 0.2fr 1fr 0.1fr;
+main section:nth-of-type(7) ul a {
+	display: grid;
+    grid-template-columns: 0.2fr 0.1fr 1fr;
+	grid-template-rows: 0.1fr 0.6fr 0.3fr 0.6fr;
+
 }
 
-main section:nth-of-type(7) ul:nth-of-type(2) li img{
-    width: 4em;
-    margin-top: 0.5em;
+main section:nth-of-type(7) li{
+	border-top: 1px solid var(--nav-background);
+    border-bottom: 1px solid var(--nav-background);
+
+	display: flex;
+
+	padding: 0.5em;
+}
+
+main section:nth-of-type(7) ul li img{
+	width: 4em;
+    grid-row: 1/5;
+    grid-column: 2;
+}
+
+main section:nth-of-type(7) a{
+	font-size: 0.9em;
+	color: var(--black-text);
+	padding-left: 0.5em;
+
+    grid-column: 3;
+    grid-row: 2;
 }
 
 main section:nth-of-type(7) a h3{
-    color: var(--blue-text);
+	color: var(--blue-text);
+	padding-left: 0.5em;
+    padding-top: 0.5em;
+
+    grid-column: 3;
+    grid-row: 1;
 }
 
-main section:nth-of-type(7) a p{
-    font-size: 0.9em;
+main section:nth-of-type(7) a ul{
+	padding-left: 0.5em;
+
+    grid-column: 3;
+    grid-row: 1;
+
 }
 
-main section:nth-of-type(7) ul:nth-of-type(2) li:nth-of-type(1) > p{
-    margin-left: 0.5em;
-    margin-top: 0.5em;
+main section:nth-of-type(7) a ul li:nth-of-type(2){
+	padding-left: 0.5em;
+    color: var(--black-text);
 }
 
-main section:nth-of-type(7) ul:nth-of-type(2) li button{ 
-    background: none;
-    border: none;
+main section:nth-of-type(7) a p:nth-of-type(1){
+    padding: 0;
+    margin: 0;
 }
 
-/* main section:nth-of-type(7) ul:nth-of-type(2) li button:nth-of-type(1){ 
-    position: absolute;
-    bottom: -2177px;
-    right: 229px;
-} */
+main section:nth-of-type(7) a p:nth-of-type(2){
+    padding-left: 0.5em;
 
-main section:nth-of-type(7) ul:nth-of-type(2) li button img{ 
-    width: 1.5em;
-    background-color: var(--nav-background);
-    cursor: pointer;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+main section:nth-of-type(7) a p:nth-of-type(3){
+	font-size: 0.8em;
+    padding-left: 0.5em;
+	color: var(--gray-text);
+
+    grid-column: 3;
+    grid-row: 4;
+}
+
+main section:nth-of-type(7) ul li button{ 
+    background: var(--section-background);
+    border: 1px solid var(--gray-text); 
+	border-radius: 3px;
+	cursor: pointer;
+	width: 2.5em;
+	height: 1.5em;
+
+	margin-left: 0.5em;
+    margin-top: 0.4em;
+}
+
+main section:nth-of-type(7) ul li button img{ 
+    width: 1em;
+	margin-top:2.5px ;
 }
 
 /* span, sterretjes */
-main section:nth-of-type(7) ul:nth-of-type(2) li span{
+main section:nth-of-type(7) ul li span{
     color: var(--span-ster);
     font-size: 1.5em;
-    position: relative;
 
     margin: 0;
     padding: 0;
@@ -523,22 +569,19 @@ section:nth-of-type(7) span:nth-of-type(1):before,
 section:nth-of-type(7) span:nth-of-type(2):before, 
 section:nth-of-type(7) span:nth-of-type(3):before, 
 section:nth-of-type(7) span:nth-of-type(4):before{
-    text-shadow: 0 0 2px var(--drop-shadow);
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
-    
 }
 
 section:nth-of-type(7) span:nth-of-type(5):before{
-    text-shadow: 0 0 2px var(--drop-shadow);
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
     width: 50%;
     overflow: hidden;
-
 }
+
 /*EIND***section 7*/
 
 /* Alle sections */
