@@ -450,7 +450,7 @@ main section:nth-of-type(6) li img{
 
 /* section 7  */
 /* Eerste ul */
-main section:nth-of-type(7) ul:nth-of-type(1){
+main section:nth-of-type(7) > ul:nth-of-type(1){
     overflow: auto; 
     white-space: nowrap; 
     margin: 1em; 
@@ -465,20 +465,22 @@ main section:nth-of-type(7) a{
 }
 
 /* Tweede ul */
-main section:nth-of-type(7) ul a {
+main section:nth-of-type(7) ul:nth-of-type(2) a {
 	display: grid;
     grid-template-columns: 0.2fr 0.1fr 1fr;
 	grid-template-rows: 0.1fr 0.6fr 0.3fr 0.6fr;
 
 }
 
-main section:nth-of-type(7) li{
-	border-top: 1px solid var(--nav-background);
+main section:nth-of-type(7) ul:nth-of-type(2) > li {
+    border-top: 1px solid var(--nav-background);
     border-bottom: 1px solid var(--nav-background);
+    padding: 0.5em;
 
+} 
+
+main section:nth-of-type(7) li{
 	display: flex;
-
-	padding: 0.5em;
 }
 
 main section:nth-of-type(7) ul li img{
@@ -506,36 +508,43 @@ main section:nth-of-type(7) a h3{
 }
 
 main section:nth-of-type(7) a ul{
-	padding-left: 0.5em;
-
     grid-column: 3;
-    grid-row: 1;
-
+    grid-row: 2;
+}
+main section:nth-of-type(7) a ul li:nth-of-type(1){
+    padding-left: 0.5em;
+    
+    color: var(--black-text);
 }
 
 main section:nth-of-type(7) a ul li:nth-of-type(2){
-	padding-left: 0.5em;
+    color: var(--black-text);
+}
+
+main section:nth-of-type(7) a p{
+    padding-left: 0.5em;
     color: var(--black-text);
 }
 
 main section:nth-of-type(7) a p:nth-of-type(1){
+    font-size: 16px;
+    color: var(--gray-text);
+
     padding: 0;
     margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main section:nth-of-type(7) a p:nth-of-type(2){
-    padding-left: 0.5em;
-
     grid-column: 3;
     grid-row: 3;
 }
 
 main section:nth-of-type(7) a p:nth-of-type(3){
-	font-size: 0.8em;
-    padding-left: 0.5em;
-	color: var(--gray-text);
-
-    grid-column: 3;
+     grid-column: 3;
     grid-row: 4;
 }
 
@@ -572,14 +581,6 @@ section:nth-of-type(7) span:nth-of-type(4):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
-}
-
-section:nth-of-type(7) span:nth-of-type(5):before{
-    color: var(--span-ster);
-    content: '\2605'; /* Full star in UTF-8 */
-    position: absolute;
-    width: 50%;
-    overflow: hidden;
 }
 
 /*EIND***section 7*/
