@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 154.4">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 237">
   <defs>
     <style>
       .cls-1 {
-        fill: none;
         stroke: #000;
         stroke-miterlimit: 10;
         stroke-width: 8px;
       }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 0px;
+      }
     </style>
   </defs>
-  <g id="Laag_4">
-    <circle class="cls-1" cx="63" cy="55.4" r="24"/>
-    <circle class="cls-1" cx="129.5" cy="58.9" r="20.5"/>
-    <line class="cls-1" x1="18" y1="128.81" x2="107" y2="128.81"/>
+  <g id="friends">
+    <circle class="cls-1" cx="67.55" cy="85.29" r="32.29"/>
+    <circle class="cls-1" cx="157.03" cy="90" r="27.58"/>
+    <line class="cls-1" x1="8" y1="185" x2="126.76" y2="185.08"/>
+    <path class="cls-1" d="m10.91,189.28c0-28.76,25.78-57.27,55.97-57.27s57.27,28.52,57.27,57.27"/>
+    <line class="cls-1" x1="132.14" y1="175.36" x2="206" y2="176"/>
+    <path class="cls-1" d="m126.76,150.72c2.69-11.61,15.87-19.68,31.22-19.68,24.97,0,45.21,21.69,45.21,48.44"/>
   </g>
-  <g id="Laag_5">
-    <path class="cls-1" d="M20.9,132.68c0-21.37,19.16-42.57,41.6-42.57s42.57,21.19,42.57,42.57"/>
-    <line class="cls-1" x1="111" y1="121.4" x2="167" y2="121.4"/>
-    <path class="cls-1" d="M107,104.02c2-8.62,11.79-14.62,23.2-14.62,18.56,0,33.6,16.12,33.6,36"/>
+  <g id="Laag_18" data-name="Laag 18">
+    <rect class="cls-2" x="7" y="16" width="200" height="200"/>
   </g>
 </svg>

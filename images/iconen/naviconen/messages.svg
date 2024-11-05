@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231.32 302.62">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 237">
   <defs>
     <style>
       .cls-1 {
-        fill: none;
         stroke: #000;
         stroke-miterlimit: 10;
         stroke-width: 8px;
       }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 0px;
+      }
     </style>
   </defs>
-  <g id="Laag_3">
-    <rect class="cls-1" x="65" y="95.62" width="142" height="101" rx="6.6" ry="6.6"/>
+  <g id="messages">
+    <g>
+      <rect class="cls-1" x="11" y="45" width="192.61" height="137" rx="8.95" ry="8.95"/>
+      <path class="cls-1" d="m12.36,73.49l81.42,64.55c7.74,6.13,19.35,6.17,27.14.09l82.7-64.64"/>
+    </g>
   </g>
-  <g id="Laag_4">
-    <path class="cls-1" d="M66,116.62l60.03,47.59c5.7,4.52,14.27,4.55,20.01.06l60.97-47.65"/>
+  <g id="Laag_18" data-name="Laag 18">
+    <rect class="cls-2" x="7" y="16" width="200" height="200"/>
   </g>
 </svg>

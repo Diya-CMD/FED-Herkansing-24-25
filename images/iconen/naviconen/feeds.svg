@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="feed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.33 191">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 237">
   <defs>
     <style>
-      .cls-1, .cls-2, .cls-3 {
-        stroke-width: 8px;
+      .cls-1 {
+        stroke-width: 7px;
       }
 
       .cls-1, .cls-2, .cls-3, .cls-4 {
-        stroke-miterlimit: 10;
-      }
-
-      .cls-1, .cls-2, .cls-4 {
         fill: none;
       }
 
-      .cls-1, .cls-4 {
+      .cls-1, .cls-2, .cls-3, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
         stroke: #fff;
       }
 
-      .cls-2, .cls-3 {
+      .cls-2, .cls-3, .cls-5 {
+        stroke-width: 8px;
+      }
+
+      .cls-2, .cls-5 {
         stroke: #000;
       }
 
-      .cls-3 {
-        fill: #fff;
+      .cls-4 {
+        stroke-width: 0px;
       }
 
-      .cls-4 {
-        stroke-width: 7px;
+      .cls-5 {
+        fill: #fff;
       }
     </style>
   </defs>
-  <rect class="cls-2" x="88.12" y="83" width="85" height="55" rx="3.97" ry="3.97" transform="translate(261.25 221) rotate(180)"/>
-  <rect class="cls-3" x="31.12" y="42" width="98" height="62" rx="4.52" ry="4.52"/>
-  <path class="cls-2" d="M85.74,105s-11.46,15.28-25.98,18.78c-.41.1-.76-.33-.59-.71,1.64-3.62,7.29-16.63,5.57-20.06"/>
-  <path class="cls-1" d="M72.65,107.16s6.21-4.74,8.96-12.32"/>
-  <path class="cls-4" d="M71.97,109.07s1.13-10.11.23-13.58"/>
-  <path class="cls-2" d="M123.12,139s11.46,15.28,25.98,18.78c.41.1.76-.33.59-.71-1.64-3.62-7.29-16.63-5.57-20.06"/>
-  <path class="cls-1" d="M136.22,141.16s-6.21-4.74-8.96-12.32"/>
-  <path class="cls-4" d="M136.89,143.07s-1.13-10.11-.23-13.58"/>
+  <g id="feed">
+    <rect class="cls-2" x="88.37" y="96.65" width="115.38" height="74.66" rx="5.38" ry="5.38" transform="translate(292.13 267.97) rotate(180)"/>
+    <rect class="cls-5" x="11" y="41" width="133.03" height="84.16" rx="6.14" ry="6.14"/>
+    <path class="cls-2" d="m85.14,126.52s-15.56,20.74-35.27,25.49c-.56.13-1.03-.44-.8-.97,2.22-4.91,9.89-22.57,7.56-27.23"/>
+    <path class="cls-3" d="m71.36,129.45s8.43-6.44,12.16-16.72"/>
+    <path class="cls-1" d="m64.45,132.04s1.53-13.73.32-18.44"/>
+    <path class="cls-2" d="m135.88,172.67s15.56,20.74,35.27,25.49c.56.13,1.03-.44.8-.97-2.22-4.91-9.89-22.57-7.56-27.23"/>
+    <path class="cls-3" d="m149.66,175.6s-8.43-6.44-12.16-16.72"/>
+    <path class="cls-1" d="m156.57,178.2s-1.53-13.73-.32-18.44"/>
+    <line class="cls-1" x1="149.66" y1="163.77" x2="152.5" y2="178.5"/>
+    <line class="cls-1" x1="71.36" y1="116" x2="68.5" y2="131.5"/>
+  </g>
+  <g id="Laag_18" data-name="Laag 18">
+    <rect class="cls-4" x="7" y="16" width="200" height="200"/>
+  </g>
 </svg>

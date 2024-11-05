@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Laag_17" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 237">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 237">
   <defs>
     <style>
       .cls-1 {
+        stroke-width: 0px;
+      }
+
+      .cls-1, .cls-2 {
         fill: none;
+      }
+
+      .cls-2 {
         stroke: #000;
         stroke-linecap: round;
         stroke-linejoin: round;
@@ -11,9 +18,14 @@
       }
     </style>
   </defs>
-  <g id="SVGRepo_iconCarrier">
-    <path class="cls-1" d="M107.27,154.67h.08M107.27,131.17c6.98-14.93,23.5-13.83,23.5-31.33,0-11.75-7.83-23.5-23.5-23.5-12.13,0-19.56,7.04-22.3,15.67M107.27,186c38.94,0,70.5-31.56,70.5-70.5s-31.56-70.5-70.5-70.5-70.5,31.56-70.5,70.5,31.56,70.5,70.5,70.5Z"/>
+  <g id="Laag_17" data-name="Laag 17">
+    <g id="SVGRepo_iconCarrier" data-name="SVGRepo iconCarrier">
+      <path class="cls-2" d="m107,169.33h.11m-.11-32c9.5-20.33,32-18.83,32-42.67,0-16-10.67-32-32-32-16.51,0-26.63,9.58-30.36,21.33m30.36,128c53.02,0,96-42.98,96-96S160.02,20,107,20,11,62.98,11,116s42.98,96,96,96Z"/>
+    </g>
+    <line class="cls-2" x1="106.64" y1="152.09" x2="106.64" y2="138.47"/>
+    <circle class="cls-2" cx="106.64" cy="168.43" r="1.36"/>
   </g>
-  <line class="cls-1" x1="107" y1="142" x2="107" y2="132"/>
-  <circle class="cls-1" cx="107" cy="154" r="1"/>
+  <g id="Laag_18" data-name="Laag 18">
+    <rect class="cls-1" x="7" y="16" width="200" height="200"/>
+  </g>
 </svg>

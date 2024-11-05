@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="profiel" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237 237">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="107" cy="116" r="96"/>
+  <circle class="cls-1" cx="107.21" cy="96.25" r="32.45"/>
+  <path class="cls-1" d="m50.29,194.42c0-25.72,25.9-51.24,56.24-51.24s57.55,25.51,57.55,51.24"/>
+</svg>
