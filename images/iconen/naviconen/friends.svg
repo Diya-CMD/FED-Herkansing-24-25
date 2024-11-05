@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 154.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="Laag_4">
+    <circle class="cls-1" cx="63" cy="55.4" r="24"/>
+    <circle class="cls-1" cx="129.5" cy="58.9" r="20.5"/>
+    <line class="cls-1" x1="18" y1="128.81" x2="107" y2="128.81"/>
+  </g>
+  <g id="Laag_5">
+    <path class="cls-1" d="M20.9,132.68c0-21.37,19.16-42.57,41.6-42.57s42.57,21.19,42.57,42.57"/>
+    <line class="cls-1" x1="111" y1="121.4" x2="167" y2="121.4"/>
+    <path class="cls-1" d="M107,104.02c2-8.62,11.79-14.62,23.2-14.62,18.56,0,33.6,16.12,33.6,36"/>
+  </g>
+</svg>

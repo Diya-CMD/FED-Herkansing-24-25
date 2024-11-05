@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.33 191">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 8px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #1675b6;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="M165.31,131.38s-3.65-7.38-3.41-8.88"/>
+  <ellipse class="cls-3" cx="122.62" cy="97.5" rx="50.5" ry="36.5"/>
+  <path class="cls-2" d="M142.85,131.47s14.92,11.92,29.86,11.67c.43,0,.65-.51.39-.84-2.49-3.09-11.22-14.27-10.42-18.03"/>
+  <path class="cls-1" d="M156.07,130.28s-7.2-3.03-11.76-9.68"/>
+  <path class="cls-4" d="M157.2,131.96s-3.62-9.51-3.63-13.09"/>
+  <path class="cls-2" d="M38.94,104.38s3.65-7.38,3.41-8.88"/>
+  <ellipse class="cls-3" cx="81.62" cy="70.5" rx="50.5" ry="36.5"/>
+  <path class="cls-2" d="M61.4,104.47s-14.92,11.92-29.86,11.67c-.43,0-.65-.51-.39-.84,2.49-3.09,11.22-14.27,10.42-18.03"/>
+  <path class="cls-1" d="M48.18,103.28s7.2-3.03,11.76-9.68"/>
+  <path class="cls-4" d="M47.05,104.96s3.62-9.51,3.63-13.09"/>
+</svg>

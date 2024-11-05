@@ -253,6 +253,7 @@ main section:nth-of-type(4) ol{
 
     padding: 0.3em;
     border-radius: 4px;
+    width: 5em;
 }
 
 main section:nth-of-type(4) ul li ol li{

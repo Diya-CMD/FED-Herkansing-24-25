@@ -29,22 +29,21 @@ function sluitMenu(){
 }
 
 
-//Section 1 carousel
-let slideIndex = 0;
-const slides = document.querySelector('section:nth-of-type(1) li');
-const totalSlides = slides.length;
+// Search menu PROFIEL
+const openSearchButton = document.querySelector("header button:nth-of-type(4)");
+const searchMenu = document.querySelector("header > ul ");
+// const sluitSearchButton = document.querySelector("header button:nth-of-type(4)");
+openSearchButton.onclick = toonSearchMenu;
+sluitSearchButton.onclick = sluitSearchMenu;
 
-function moveSlide(direction) {
-    slideIndex = (slideIndex + direction + totalSlides) % totalSlides;
-    const carousel = document.querySelector('section:nth-of-type(1) ul');
-    const slideWidth = slides[0].clientWidth;
-    carousel.style.transform = `translateX(${-slideIndex * slideWidth}px)`;
+//AAAAAAAAAAAAAAAAH JACVA SHCIR als open en klikt dan sluit if else je
+function toonSearchMenu() {
+    searchMenu.classList.add("inBeeld");
+    // document.documentElement.classList.add("inBeeld");
 }
 
-// Function to auto-slide
-function autoSlide() {
-    moveSlide(1); // Move to the next slide
+function sluitSearchMenu() {
+    searchMenu.classList.remove("inBeeld");
+    // document.documentElement.classList.remove("inBeeld");
 }
-
-// Set interval for auto-sliding every 3 seconds
-setInterval(autoSlide, 3000);
+ 

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210.48 215.81">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+
+      .cls-2 {
+        font-family: SourceSansRoman-Black, 'Source Sans Variable';
+        font-size: 53.45px;
+        font-variation-settings: 'wght' 900;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="74.56" y1="71" x2="175.56" y2="71"/>
+  <text class="cls-2" transform="translate(26.51 88.36)"><tspan x="0" y="0">1</tspan></text>
+  <line class="cls-1" x1="74.56" y1="118" x2="175.56" y2="118"/>
+  <text class="cls-2" transform="translate(26.45 134.91)"><tspan x="0" y="0">2</tspan></text>
+  <line class="cls-1" x1="74.49" y1="164.25" x2="175.49" y2="164.25"/>
+  <text class="cls-2" transform="translate(26.45 181.61)"><tspan x="0" y="0">3</tspan></text>
+</svg>

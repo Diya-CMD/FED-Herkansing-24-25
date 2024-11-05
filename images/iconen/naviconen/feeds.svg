@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="feed" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 205.33 191">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 8px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1, .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x="88.12" y="83" width="85" height="55" rx="3.97" ry="3.97" transform="translate(261.25 221) rotate(180)"/>
+  <rect class="cls-3" x="31.12" y="42" width="98" height="62" rx="4.52" ry="4.52"/>
+  <path class="cls-2" d="M85.74,105s-11.46,15.28-25.98,18.78c-.41.1-.76-.33-.59-.71,1.64-3.62,7.29-16.63,5.57-20.06"/>
+  <path class="cls-1" d="M72.65,107.16s6.21-4.74,8.96-12.32"/>
+  <path class="cls-4" d="M71.97,109.07s1.13-10.11.23-13.58"/>
+  <path class="cls-2" d="M123.12,139s11.46,15.28,25.98,18.78c.41.1.76-.33.59-.71-1.64-3.62-7.29-16.63-5.57-20.06"/>
+  <path class="cls-1" d="M136.22,141.16s-6.21-4.74-8.96-12.32"/>
+  <path class="cls-4" d="M136.89,143.07s-1.13-10.11-.23-13.58"/>
+</svg>

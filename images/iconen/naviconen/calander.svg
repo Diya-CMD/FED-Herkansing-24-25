@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 155.11 206">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="12.11" y="71" width="128" height="123" rx="6.57" ry="6.57"/>
+  <line class="cls-1" x1="11.61" y1="100" x2="137.11" y2="100"/>
+  <line class="cls-1" x1="41.11" y1="68" x2="41.11" y2="48"/>
+  <line class="cls-1" x1="109.11" y1="68" x2="109.11" y2="48"/>
+</svg>

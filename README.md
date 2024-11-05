@@ -280,8 +280,8 @@ Color contrast
 
   |     Diya          | Giulietta              | Keysha  | Thi           |
   | ---               | ---                    | ---     | ---           |
-  |   andere menu     |  img + tekst stijlen   |         |               |
-  | speciale button   |                        |         |               |
+  |   andere menu     |  img + tekst stijlen   |         | tekst op plaatje              |
+  | speciale button   |                        |         | filter tabs              |
   | ...               | ...                    | ...     | ...           |
 
   ### Verslag van meeting

@@ -93,7 +93,40 @@
 	  order: 4;
   
   }
-  
+
+/* profiel */
+  header > ul {
+	background-color: var(--section-background);
+	border-radius: 2px;
+
+	position: absolute;
+	top: calc(6.4%);
+	right: calc(15%);
+
+	z-index: 200;
+
+	/* transform: translateY(-20em); */
+  }
+/* 
+  header > ul.inBeeld {
+	transform: translateY(0);
+  } */
+
+  header > ul li a{
+	font-size: 14px;
+
+	margin: 1em;
+  }
+
+  header > ul li a img{
+	width: 14px;
+  }  
+
+
+
+
+
+/* header nav */
   nav{
 	  margin-left: 7em;
 	  padding: 2em;
@@ -102,7 +135,7 @@
 	  display: grid; 
   
 	  position: fixed;
-	  z-index: 100; /*  boven de position:... elementen uit komen */
+	  z-index: 300; /*  boven de position:... elementen uit komen */
 	  inset: 0;
 	  translate: 100%;       
 	  transition: 1s;
@@ -214,7 +247,11 @@
  footer section:nth-of-type(1) ul:nth-of-type(1) li{
 	border: 1px solid var(--white-text);
 	border-radius: 50%;
+  }
 
+  footer section:nth-of-type(1) h2{
+	font-size: 12px;
+	font-weight: lighter;
   }
 
   footer section:nth-of-type(1) ul:nth-of-type(1) img{
@@ -226,6 +263,7 @@
   }
 
   /* Tweede ul */
+  
   footer section:nth-of-type(1) ul:nth-of-type(2) li{
 	border: 1px solid var(--white-text);
 	border-radius: 30px;
@@ -233,12 +271,12 @@
   }
 
   footer section:nth-of-type(1) ul:nth-of-type(2) li a{
-	display: flex;
-	flex-wrap: wrap;
-
 	font-size: 1em;
-  }
 
+	display: flex;
+	align-items: center;
+  }
+  
   footer section:nth-of-type(1) ul:nth-of-type(2) img{
 	width: 1.5em;
 	margin: 0.5em;
