@@ -281,7 +281,7 @@ Color contrast
   |     Diya          | Giulietta              | Keysha  | Thi           |
   | ---               | ---                    | ---     | ---           |
   |   andere menu     |  img + tekst stijlen   |         | tekst op plaatje              |
-  | speciale button   |                        |         | filter tabs              |
+  | speciale button   | grid                       |         | filter tabs              |
   | ...               | ...                    | ...     | ...           |
 
   ### Verslag van meeting
@@ -310,15 +310,22 @@ Color contrast
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
-
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  - active, als je erop klikt veranderd de kleur. Kan het gebruiken inplaats van een hover voor telefoon. 
+  - li-> a -> de rest in nesten mag.
+  - Grid, heb er vaker nu mee gewerkt, dus snap ik het beter. 
+  - Opstelling van mijn HTML, overzichtelijkheid.
+  - span gebruiken voor bepaalde stijling keuzes. 
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
+  - Javascrip, heb om hulp gevraagd aan Laura en een andere vriend van mij. 
+  - dark mode deed stom.
+  - De carousel van mijn eerste section is nog steeds niet geluk.
+  - Grafieken
 
 
 
@@ -333,8 +340,8 @@ Color contrast
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Chatgpt, er kan geen link gemaakt worden omdat er afbeeldingen in zitten.
+  2. FED 24/25 - JS 3-stap  - Oefening 2 - responsive  2-buttons hamburger. (z.d.). Codepen. https://codepen.io/D-Leda/pen/yLmLmyP
+  3. Laura
 
 </details>
