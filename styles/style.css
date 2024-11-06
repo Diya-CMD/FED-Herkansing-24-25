@@ -337,10 +337,12 @@ header > form button{
 	border: 1px solid var(--white-text);
 	border-radius: 30px;
 	margin: 0.5em;
+	
   }
 
   footer section:nth-of-type(1) ul:nth-of-type(2) li a{
 	font-size: 1em;
+	margin-bottom: 0.5em;
 
 	display: flex;
 	align-items: center;
