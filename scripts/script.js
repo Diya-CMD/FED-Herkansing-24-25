@@ -32,21 +32,19 @@ function sluitMenu(){
 // PROFIEL menu(laura code)
 const searchMenu = document.querySelector("header > ul ");
 const openSearchButton = document.querySelector("header button:nth-of-type(4)");
-// const sluitSearchButton = document.querySelector("header button:nth-of-type(4)");
-openSearchButton.onclick = toonSearchMenu;
-sluitSearchButton.onclick = sluitSearchMenu;
+openSearchButton.onclick = toggleSearchMenu;
 
 //AAAAAAAAAAAAAAAAH JACVA SHCIR als open en klikt dan sluit if else je
 
-function toonSearchMenu() {
-  searchMenu.classList.add("inBeeld");
-  // document.documentElement.classList.add("inBeeld");
+function toggleSearchMenu() {
+  if (searchMenu.classList.contains("inBeeld")) {
+    searchMenu.classList.remove("inBeeld");
+  }
+  else {
+    searchMenu.classList.add("inBeeld");
+  }
 }
 
-function sluitSearchMenu() {
-  searchMenu.classList.remove("inBeeld");
-  // document.documentElement.classList.remove("inBeeld");
-}
 
 //SEARCH dingetje
 const zoekFunctie = document.querySelector("header > form");
