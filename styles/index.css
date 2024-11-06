@@ -4,21 +4,24 @@
 }
 
 :root {
-   --body-background: rgb(233,234,237);
-   --nav-background:#dcdfe6;
-   --section-background: #ffffff; 
-   --footer-background: rgb(42,43,60);
-   
-  --dark-blue: #00619d;
-  
-  --black-text: #111;
-  --blue-text: #1675b6;
-  --gray-text: #7a7a7a;
-  --white-text: #eee;
+	color-scheme: light dark;
+		--body-background: light-dark (rgb(233,234,237), #18191a);
+		--nav-background: light-dark (#dcdfe6, #18191a);
+		--section-background: light-dark (#ffffff, #242526);
+		--footer-background: light-dark (rgb(42,43,60), #18191a);
 
-  --drop-shadow: rgb(197, 197, 197);
-  --hover-text: #2196f3;
-  --span-ster: #ffd600;
+		--black-text: light-dark (#111, #eee) ;
+		--blue-text: light-dark #1675b6;
+		--white-text: light-dark (#eee, #111);
+
+		--drop-shadow: light-dark (rgb(197, 197, 197), #3e4042);
+
+
+	 --dark-blue: #00619d;
+	 --gray-text: #7a7a7a;
+
+	 --hover-text: #2196f3; 
+     --span-ster: #ffd600;
 }
 
 a, abbr{
