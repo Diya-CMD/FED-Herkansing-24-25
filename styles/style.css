@@ -3,9 +3,14 @@
 	margin: 0;
 	padding: 0;  
   
-	font-family: lato, Helvetica, Arial, sans-serif;
+	font-family:  Helvetica, Arial, sans-serif;
   
   }
+
+  /* @font-face {
+	font-family: lato;
+	src: url(../lato.woff2);
+  } */
   
   :root {
       --body-background: rgb(233,234,237);

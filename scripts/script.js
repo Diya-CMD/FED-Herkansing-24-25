@@ -29,12 +29,10 @@ function sluitMenu(){
 }
 
 
-// PROFIEL menu(laura code)
+// PROFIEL menu(laura code, hulp van Johnathan)
 const searchMenu = document.querySelector("header > ul ");
 const openSearchButton = document.querySelector("header button:nth-of-type(4)");
 openSearchButton.onclick = toggleSearchMenu;
-
-//AAAAAAAAAAAAAAAAH JACVA SHCIR als open en klikt dan sluit if else je
 
 function toggleSearchMenu() {
   if (searchMenu.classList.contains("inBeeld")) {
@@ -45,14 +43,13 @@ function toggleSearchMenu() {
   }
 }
 
-
-//SEARCH dingetje
+//SEARCH dingetje(laura code, hulp van Johnathan)
 const zoekFunctie = document.querySelector("header > form");
 const zoekFunctieOpen = document.querySelector("header button:nth-of-type(2)");
 const zoekFunctieSluit = document.querySelector("header > form button");
 
-openZoekFuntie.onclick = openMenu;
-sluitZoekFuntie.onclick = closeMenu;
+zoekFunctieOpen.onclick = openMenu;
+zoekFunctieSluit.onclick = closeMenu;
 
 function openMenu(){
   zoekFunctie.classList.add("startSearch");
