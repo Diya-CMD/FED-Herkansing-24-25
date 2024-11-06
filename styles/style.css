@@ -31,6 +31,10 @@
   a, abbr{
 	text-decoration: none;
   }
+
+  button{
+	cursor: pointer;
+  }
   
 
   header{
@@ -75,7 +79,7 @@
 	  color:var(--black-text)
   }
   
-  header button{
+  header section button{
 	  display: flex; 
 	  align-items: center;
 	  gap: .25em;
@@ -135,8 +139,6 @@
 	align-items: center;
   }
 
-
-  
   header > ul li:active{
 	background-color: var(--nav-background);
   }
@@ -154,18 +156,38 @@ header > form {
 
 	position: absolute;
 	top: calc(6.4%);
+	left: calc(-0.5%);
+	display: flex;
+    justify-content: center;
+    align-items: center;
 
 	z-index: 200;
 
-	padding: 0.5em;
+	padding: 16px;
+	width: 100%;
 
-	/* transform: translateY(-200em); */
+	transform: translateY(-200em);
   }
 
-  /* header > form.inBeeld {
+  header > form.startSearch {
 	transform: translateY(0);
-  } */
+  }
 
+header > form input{
+	width: 80%;
+	padding: 8px;
+    border: none;
+	outline: none;
+	border-bottom: 1px solid var(--gray-text);
+    font-size: 16px;
+	text-align: left;
+}
+
+header > form button{
+	border: none;
+	background: none;
+	margin-left: 0.5em;
+}
 
 
 /* header nav */
@@ -205,8 +227,13 @@ header > form {
   
   header nav button{
 	  background-color: var(--nav-background);
-	  padding: 1em;
+	  padding: 0.5em;
+	  border: none;
   }
+
+  header nav button img{
+	width: 3em;
+}
   /*EIND*****BURGER MENU + CODE VAN DE LES****/
   
   main{

@@ -29,15 +29,14 @@ function sluitMenu(){
 }
 
 
-// PROFIEL menu
-const openSearchButton = document.querySelector("header button:nth-of-type(4)");
+// PROFIEL menu(laura code)
 const searchMenu = document.querySelector("header > ul ");
+const openSearchButton = document.querySelector("header button:nth-of-type(4)");
 // const sluitSearchButton = document.querySelector("header button:nth-of-type(4)");
 openSearchButton.onclick = toonSearchMenu;
 sluitSearchButton.onclick = sluitSearchMenu;
 
 //AAAAAAAAAAAAAAAAH JACVA SHCIR als open en klikt dan sluit if else je
-
 
 function toonSearchMenu() {
   searchMenu.classList.add("inBeeld");
@@ -49,6 +48,22 @@ function sluitSearchMenu() {
   // document.documentElement.classList.remove("inBeeld");
 }
 
+//SEARCH dingetje
+const zoekFunctie = document.querySelector("header > form");
+const zoekFunctieOpen = document.querySelector("header button:nth-of-type(2)");
+const zoekFunctieSluit = document.querySelector("header > form button");
+
+openZoekFuntie.onclick = openMenu;
+sluitZoekFuntie.onclick = closeMenu;
+
+function openMenu(){
+  zoekFunctie.classList.add("startSearch");
+}
+
+function closeMenu(){
+  zoekFunctie.classList.remove("startSearch");
+
+}
 
 
 
