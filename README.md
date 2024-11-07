@@ -251,7 +251,7 @@ Color contrast
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
   ### Wat ik nog moet verbeteren
-  - Hij zie de h3 binnen de a niet.
+  - 
 </details>
 
 
@@ -342,6 +342,7 @@ Color contrast
 
   1. Chatgpt, er kan geen link gemaakt worden omdat er afbeeldingen in zitten.
   2. FED 24/25 - JS 3-stap  - Oefening 2 - responsive  2-buttons hamburger. (z.d.). Codepen. https://codepen.io/D-Leda/pen/yLmLmyP
-  3. Laura
+  3. Laura, javascript
+  4. Marina, dark mode
 
 </details>
