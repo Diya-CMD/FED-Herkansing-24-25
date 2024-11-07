@@ -13,22 +13,7 @@
   } */
   
   :root {
-      --body-background: rgb(233,234,237);
-	  --nav-background:#dcdfe6;
-	  --section-background: #ffffff; 
-	  --footer-background: rgb(42,43,60);
-	  
-	 --dark-blue: #00619d;
-	 
-	 --black-text: #111;
-	 --blue-text: #1675b6;
-	 --gray-text: #7a7a7a;
-	 --white-text: #eee;
-
-	 --drop-shadow: rgb(197, 197, 197);
-	 --hover-text: #2196f3; 
-
-	 /* color-scheme: light dark;
+	  color-scheme: light dark;
 	 --body-background: light-dark (rgb(233,234,237), #18191a);
 	 --nav-background: light-dark (#dcdfe6, #18191a);
 	 --section-background: light-dark (#ffffff, #242526);
@@ -38,28 +23,13 @@
 	 --blue-text: light-dark #1675b6;
 	 --white-text: light-dark (#eee, #111);
 
-	 --drop-shadow: light-dark (rgb(197, 197, 197), #3e4042);
+	 --drop-shadow: light-dark (rgb(197, 197, 197), #3e4042); 
 
 
   --dark-blue: #00619d;
   --gray-text: #7a7a7a;
 
-  --hover-text: #2196f3;  */
-  }
-
-  @media (prefers-color-scheme: dark){
-	:root{
-		--body-background: #18191a; 
-		--nav-background: #18191a;
-		--section-background: #242526; 
-		--footer-background: #18191a;
-	   
-	   --black-text: #eee;
-	   --white-text: #111;
-	
-	   --drop-shadow: #3e4042; 
-	}
-
+  --hover-text: #2196f3; 
   }
   
   body{
@@ -297,6 +267,7 @@ header > form button{
 	  background-color: var(--section-background);
 	  margin: 1em;
 	  padding: 1em;
+	  border: 1px solid var(--gray-text)
   }
   
   h1{
