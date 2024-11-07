@@ -46,6 +46,21 @@
 
   --hover-text: #2196f3;  */
   }
+
+  @media (prefers-color-scheme: dark){
+	:root{
+		--body-background: #18191a; 
+		--nav-background: #18191a;
+		--section-background: #242526; 
+		--footer-background: #18191a;
+	   
+	   --black-text: #eee;
+	   --white-text: #111;
+	
+	   --drop-shadow: #3e4042; 
+	}
+
+  }
   
   body{
 	  background-color: var(--body-background);
