@@ -13,23 +13,26 @@
   } */
   
   :root {
-	  color-scheme: light dark;
-	 --body-background: light-dark (rgb(233,234,237), #18191a);
-	 --nav-background: light-dark (#dcdfe6, #18191a);
-	 --section-background: light-dark (#ffffff, #242526);
-	 --footer-background: light-dark (rgb(42,43,60), #18191a);
+	color-scheme: light dark;
+		--body-background: light-dark(rgb(233,234,237), #18191a);
+		--nav-background: light-dark(#dcdfe6, #18191a);
+		--section-background: light-dark(#ffffff, #242526);
+		--footer-background: light-dark(rgb(42,43,60), #18191a);
+		--light-gray: light-dark(#f8f8f8, #1b1c1d) ; 
 
-	 --black-text: light-dark (#111, #eee) ;
-	 --blue-text: light-dark #1675b6;
-	 --white-text: light-dark (#eee, #111);
+		--black-text: light-dark(#111, #eee) ;
 
-	 --drop-shadow: light-dark (rgb(197, 197, 197), #3e4042); 
+		--white-text: light-dark(#eee, #111);
+
+		--drop-shadow: light-dark(rgb(197, 197, 197), #3e4042);
 
 
-  --dark-blue: #00619d;
-  --gray-text: #7a7a7a;
+	 --dark-blue: #00619d;
+     --blue-text: #1675b6;
+	 --gray-text: #7a7a7a;
 
-  --hover-text: #2196f3; 
+	 --hover-text: #2196f3; 
+     --span-ster: #ffd600;
   }
   
   body{
@@ -111,14 +114,13 @@
 	background-color: var(--section-background);
 	border-radius: 2px;
 	border: 1px solid var(--nav-background);
+	padding: 0.5em;
 
 	position: absolute;
 	top: calc(6.4%);
 	right: calc(13%);
 
 	z-index: 200;
-
-	padding: 0.5em;
 
 	transform: translateY(-200em);
   }
@@ -137,7 +139,6 @@
 
   header > ul li:active{
 	background-color: var(--nav-background);
-
   }
 
   header > ul li a img{
@@ -150,10 +151,12 @@
 	color: var(--blue-text);
   }
 
+
   header > ul li:nth-of-type(12){
     border-bottom: 1px solid var(--nav-background);
-	color: var(--blue-text);
-
+	
+	display: grid;
+	grid-auto-flow: column;
   }
 
   header > ul li:nth-of-type(12) button{
@@ -164,13 +167,11 @@
 	border: 1px solid var(--nav-background);
 	border-radius: 4px;
 	box-shadow: 0 0 3px var(--drop-shadow);
-
   }
 
   
 
   
-
 /* form */
 header > form {
 	background-color: var(--section-background);
@@ -295,7 +296,7 @@ header > form button{
   footer{
 	  background-color: var(--footer-background);
 	 color: var(--white-text);
-	  padding: 1em;
+	  padding: 0.5em;
 
 	  display: flex;
 	  flex-wrap: wrap;
@@ -313,9 +314,7 @@ header > form button{
 	 font-size: 0.8em;
   }
   
-  footer img{
-  width: 10em;
-  }
+
   
 
   footer p{
@@ -333,9 +332,14 @@ header > form button{
   }
 
 /* Section 1 */
-  footer section:nth-of-type(1) h2{
+footer img{
+	width: 7em;
+	}
+	
+  footer section:nth-of-type(1) > p{
 	font-size: 0.8em;
 	font-weight: lighter;
+	color: var(--light-gray);
   }
 
   /* Eerste ul */

@@ -3,25 +3,22 @@
 }
 
 :root {
-
-	--a-background: light-dark(#f8f8f8, ) ; 
-	
-
-
 	color-scheme: light dark;
-		--body-background: light-dark (rgb(233,234,237), #18191a);
-		--nav-background: light-dark (#dcdfe6, #18191a);
-		--section-background: light-dark (#ffffff, #242526);
-		--footer-background: light-dark (rgb(42,43,60), #18191a);
+		--body-background: light-dark(rgb(233,234,237), #18191a);
+		--nav-background: light-dark(#dcdfe6, #18191a);
+		--section-background: light-dark(#ffffff, #242526);
+		--footer-background: light-dark(rgb(42,43,60), #18191a);
+		--light-gray: light-dark(#f8f8f8, #1b1c1d) ; 
 
-		--black-text: light-dark (#111, #eee) ;
-		--blue-text: light-dark #1675b6;
-		--white-text: light-dark (#eee, #111);
+		--black-text: light-dark(#111, #eee) ;
 
-		--drop-shadow: light-dark (rgb(197, 197, 197), #3e4042);
+		--white-text: light-dark(#eee, #111);
+
+		--drop-shadow: light-dark(rgb(197, 197, 197), #3e4042);
 
 
 	 --dark-blue: #00619d;
+     --blue-text: #1675b6;
 	 --gray-text: #7a7a7a;
 
 	 --hover-text: #2196f3; 
