@@ -344,5 +344,6 @@ Color contrast
   2. FED 24/25 - JS 3-stap  - Oefening 2 - responsive  2-buttons hamburger. (z.d.). Codepen. https://codepen.io/D-Leda/pen/yLmLmyP
   3. Laura, javascript
   4. Marina, dark mode
+  5. McIntosh, A. (z.d.). Star Rating using only CSS. Codepen. Geraadpleegd op 3 november 2024, van https://codepen.io/mcintosh101/pen/vYypMQ
 
 </details>

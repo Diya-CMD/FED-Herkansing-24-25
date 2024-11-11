@@ -20,6 +20,7 @@
 	 --dark-blue: #00619d;
      --blue-text: #1675b6;
 	 --gray-text: #7a7a7a;
+	 --wit: #eee;
 
 	 --hover-text: #2196f3; 
      --span-ster: #ffd600;
@@ -69,7 +70,7 @@ main section:nth-of-type(1) button{
 main section:nth-of-type(1) li:nth-of-type(1) button{
     background: var(--dark-blue);
     border: 1px solid var(--gray-text); 
-	color: var(--white-text);
+	color: var(--wit);
 }
 
 
@@ -86,7 +87,7 @@ main section:nth-of-type(2) h2{
 }
 
 main section:nth-of-type(2) ul:nth-of-type(1){
-	background: var(--a-background);
+	background: var(--light-gray);
 }
 
 main section:nth-of-type(2) ul:nth-of-type(1) li{

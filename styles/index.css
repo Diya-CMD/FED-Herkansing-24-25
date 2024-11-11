@@ -427,7 +427,11 @@ main section:nth-of-type(5) img{
 /*EIND***section 5*/
 
 /*section 6*/
-main section:nth-of-type(6) ul{
+main section:nth-of-type(6) h3{
+    color: var(--blue-text);
+}
+main section:nth-of-type(6) ul:nth-of-type(1),
+main section:nth-of-type(6) ul:nth-of-type(3){
     display: grid;
     grid-auto-columns: 5em; /* Maakt rijen aan, zoveel het nodig heeft */
     grid-auto-flow: column; 
@@ -436,25 +440,43 @@ main section:nth-of-type(6) ul{
 }
    
 
-main section:nth-of-type(6) li{
+main section:nth-of-type(6) ul:nth-of-type(1) li,
+main section:nth-of-type(6) ul:nth-of-type(3) li{
     transition: transform 0.3s ease;
     rotate:y -.1deg;
 }
 
-main section:nth-of-type(6) li:hover{
+main section:nth-of-type(6) ul:nth-of-type(1) li:hover,
+main section:nth-of-type(6) ul:nth-of-type(3) li:hover{
     transform: scale(110%); 
     z-index: 20; 
     translate:0 0 2em;
 }
 
-main section:nth-of-type(6) li img{
+main section:nth-of-type(6) ul:nth-of-type(1) li img,
+main section:nth-of-type(6) ul:nth-of-type(3) li img{
     box-shadow: 0 0 6px var(--drop-shadow);
     transition: all 0.3s ease;
-    object-fit: cover;
 
     width: 6em;
     border-radius: .5em;
 }
+
+main section:nth-of-type(6) ul:nth-of-type(2),
+main section:nth-of-type(6) ul:nth-of-type(4){
+    display: flex;
+
+}
+
+main section:nth-of-type(6) ul:nth-of-type(2) li,
+main section:nth-of-type(6) ul:nth-of-type(4) li {
+    display: flex;
+    gap: 0.5em;
+
+}
+
+
+
 /*EIND***section 6*/
 
 /* section 7  */
