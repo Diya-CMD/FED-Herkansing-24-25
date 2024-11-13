@@ -30,6 +30,12 @@
 a, abbr{
 	text-decoration: none;
   }
+
+  main section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
   
 
 /*section 1*/
@@ -221,7 +227,7 @@ main section:nth-of-type(2) > a{
 /*EIND***section 2*/
 
 /* SECTION 3 + 4 + 5*/
-main section:nth-of-type(3) ul, /*main section:nth-of-type(4) ul,*/ main section:nth-of-type(5) ul { 
+main section:nth-of-type(3) ul, main section:nth-of-type(5) ul { 
     overflow: auto; 
     white-space: nowrap; 
     display: flex;
@@ -233,19 +239,19 @@ main section:nth-of-type(3) ul li, /*main section:nth-of-type(4) ul li,*/ main s
     padding: 0;
 } 
 
-main section:nth-of-type(3) img/*, main section:nth-of-type(4) img*/ { 
+main section:nth-of-type(3) img, main section:nth-of-type(4) img{ 
     width: 9.3em; 
 } 
 
-main section:nth-of-type(3) ul li p, /*main section:nth-of-type(4) ul li p,*/ main section:nth-of-type(5) ul li p { 
+main section:nth-of-type(3) ul li p, main section:nth-of-type(4) ul li p, main section:nth-of-type(5) ul li p { 
     padding: 0.2em;
 } 
 
-main section:nth-of-type(3) ul li > p, /*main section:nth-of-type(4) ul li > p,*/ main section:nth-of-type(5) ul li > p { 
+main section:nth-of-type(3) ul li > p, main section:nth-of-type(4) ul li > p, main section:nth-of-type(5) ul li > p { 
     font-size: 0.9em;
 } 
 
-main section:nth-of-type(3) ul li a p, /*main section:nth-of-type(4) ul li a p,*/ main section:nth-of-type(5) ul li a p { 
+main section:nth-of-type(3) ul li a p, main section:nth-of-type(4) ul li a p, main section:nth-of-type(5) ul li a p { 
     color: var(--blue-text);
     font-weight: bold;
 } 
@@ -268,16 +274,10 @@ main section:nth-of-type(4) > ul > li{
 }
 
 main section:nth-of-type(4) img{
-    width: 9.3em; 
     grid-area: 1 / 1 / 2 / 2;
     z-index: 1;
-
 }
 
-main section:nth-of-type(3) ul li > p{
-    font-size: 0.9em;
-
-}
 
 main section:nth-of-type(4) ul li > ul{
     background: var(--section-background);
@@ -320,12 +320,9 @@ main section:nth-of-type(4) ul li > ul li p{
 main section:nth-of-type(4) ul li > ul::after{
     content: "";
     position: absolute;
-    width: 0;
-    height: 0;
     margin-left: -.5em;
     bottom: -9px;
     left: 50%;
-    box-sizing: border-box;
     border-color: transparent transparent var(--section-background) var(--section-background);
     border-style: solid;
     border-width: 5px;
@@ -333,8 +330,6 @@ main section:nth-of-type(4) ul li > ul::after{
     transform: rotate(-45deg);
     box-shadow: -3px 3px 3px 0 var(--drop-shadow);
 }
-
-
 
 /* span ster 1 */
 main section:nth-of-type(4) ul li span{
@@ -374,7 +369,6 @@ section:nth-of-type(4) li:nth-of-type(2) ul span:nth-of-type(4):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
-    
 }
 
 section:nth-of-type(4) li:nth-of-type(2) ul span:nth-of-type(5):before{
@@ -383,7 +377,6 @@ section:nth-of-type(4) li:nth-of-type(2) ul span:nth-of-type(5):before{
     position: absolute;
     width: 50%;
     overflow: hidden;
-
 } 
 
 /* span ster 3 */
@@ -403,7 +396,6 @@ section:nth-of-type(4) li:nth-of-type(3) ul span:nth-of-type(4):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
-    
 }
 
 /* span ster 4 */
@@ -420,8 +412,7 @@ section:nth-of-type(4) li:nth-of-type(4) ul span:nth-of-type(1):before,
 section:nth-of-type(4) li:nth-of-type(4) ul span:nth-of-type(2):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
-    position: absolute;
-    
+    position: absolute; 
 }
 
 section:nth-of-type(4) li:nth-of-type(4) ul span:nth-of-type(3):before{
@@ -430,7 +421,6 @@ section:nth-of-type(4) li:nth-of-type(4) ul span:nth-of-type(3):before{
     position: absolute;
     width: 50%;
     overflow: hidden;
-
 } 
 
 /* span ster 5 */
@@ -484,9 +474,59 @@ main section:nth-of-type(5) img{
 /*EIND***section 5*/
 
 /*section 6*/
+/* EERSTE - DERDE UL */
+main section:nth-of-type(6){
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr 0.1fr 1fr 0.1fr;
+}
+
+main section:nth-of-type(6) h2{
+    grid-row: 1;
+    grid-column: 1;
+
+    margin-bottom: 0.5em;
+}
+
+main section:nth-of-type(6) > a{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+main section:nth-of-type(6) ul:nth-of-type(1){
+    grid-row: 2;
+    grid-column: 1;
+}
+
+main section:nth-of-type(6) h3:nth-of-type(1){
+    grid-row: 3;
+    grid-column: 1;
+}
+
+main section:nth-of-type(6) ul:nth-of-type(2){
+    grid-row: 4;
+    grid-column: 1;
+
+    margin-bottom: 0.5em;
+
+}
+
+main section:nth-of-type(6) ul:nth-of-type(3){
+    grid-row: 5;
+    grid-column: 1;
+}
+
+main section:nth-of-type(6) h3:nth-of-type(2){
+    grid-row: 6;
+    grid-column: 1;
+}
+
+
+
 main section:nth-of-type(6) h3{
     color: var(--blue-text);
 }
+
 main section:nth-of-type(6) ul:nth-of-type(1),
 main section:nth-of-type(6) ul:nth-of-type(3){
     display: grid;
@@ -519,18 +559,23 @@ main section:nth-of-type(6) ul:nth-of-type(3) li img{
     border-radius: .5em;
 }
 
+/* TWEEDE - VIERDE UL */
 main section:nth-of-type(6) ul:nth-of-type(2),
 main section:nth-of-type(6) ul:nth-of-type(4){
     display: flex;
-
+    gap: 2em;
 }
 
 main section:nth-of-type(6) ul:nth-of-type(2) li,
 main section:nth-of-type(6) ul:nth-of-type(4) li {
     display: flex;
-    gap: 0.5em;
-
 }
+
+main section:nth-of-type(6) ul:nth-of-type(2) li img,
+main section:nth-of-type(6) ul:nth-of-type(4) li img{
+    width: 1em;
+}
+
 
 /*EIND***section 6*/
 
@@ -595,6 +640,10 @@ main section:nth-of-type(7) ul:nth-of-type(2) a{
 
     grid-column: 3;
     grid-row: 2;
+}
+
+main section:nth-of-type(7) h2{
+    margin-bottom: 0.5em;
 }
 
 main section:nth-of-type(7) a h3{

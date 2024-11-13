@@ -281,9 +281,6 @@ header > form button{
 	  margin: 1em;
 	  padding: 1em;
 	  border: 1px solid var(--gray-text);
-	  /* display: flex;
-	  flex-wrap: wrap;
-	  justify-content: space-between; */
   }
   
   h1{
