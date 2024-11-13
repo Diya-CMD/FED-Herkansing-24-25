@@ -221,7 +221,7 @@ main section:nth-of-type(2) > a{
 /*EIND***section 2*/
 
 /* SECTION 3 + 4 + 5*/
-main section:nth-of-type(3) ul, main section:nth-of-type(4) ul, main section:nth-of-type(5) ul { 
+main section:nth-of-type(3) ul, /*main section:nth-of-type(4) ul,*/ main section:nth-of-type(5) ul { 
     overflow: auto; 
     white-space: nowrap; 
     display: flex;
@@ -229,56 +229,87 @@ main section:nth-of-type(3) ul, main section:nth-of-type(4) ul, main section:nth
     gap: 0.5em;
 } 
 
-main section:nth-of-type(3) ul li, main section:nth-of-type(4) ul li, main section:nth-of-type(5) ul li  { 
-    display: block;
+main section:nth-of-type(3) ul li, /*main section:nth-of-type(4) ul li,*/ main section:nth-of-type(5) ul li  { 
     padding: 0;
 } 
 
-main section:nth-of-type(3) img, main section:nth-of-type(4) img { 
+main section:nth-of-type(3) img/*, main section:nth-of-type(4) img*/ { 
     width: 9.3em; 
 } 
 
-main section:nth-of-type(3) ul li p, main section:nth-of-type(4) ul li p, main section:nth-of-type(5) ul li p { 
+main section:nth-of-type(3) ul li p, /*main section:nth-of-type(4) ul li p,*/ main section:nth-of-type(5) ul li p { 
     padding: 0.2em;
 } 
 
-main section:nth-of-type(3) ul li > p, main section:nth-of-type(4) ul li > p, main section:nth-of-type(5) ul li > p { 
+main section:nth-of-type(3) ul li > p, /*main section:nth-of-type(4) ul li > p,*/ main section:nth-of-type(5) ul li > p { 
     font-size: 0.9em;
 } 
 
-main section:nth-of-type(3) ul li a p, main section:nth-of-type(4) ul li a p, main section:nth-of-type(5) ul li a p { 
+main section:nth-of-type(3) ul li a p, /*main section:nth-of-type(4) ul li a p,*/ main section:nth-of-type(5) ul li a p { 
     color: var(--blue-text);
     font-weight: bold;
 } 
 /* EIND SECTION 3 + 4 + 5*/
 
 /*section 4*/
-main section:nth-of-type(4) ol{
-    background: var(--section-background);
+main section:nth-of-type(4) > ul{
+    overflow: auto; 
+    white-space: nowrap; 
+    display: flex;
+    margin: 1em; 
+    gap: 0.5em;
+}
 
+main section:nth-of-type(4) > ul > li{
+    display: grid;
+    grid-template-columns: 1fr;
+	grid-template-rows: 1fr 0.2fr;
     position: relative;
-    z-index: 10;
-    right: -9px;
-    bottom: -206px;
+}
+
+main section:nth-of-type(4) img{
+    width: 9.3em; 
+    grid-area: 1 / 1 / 2 / 2;
+    z-index: 1;
+
+}
+
+main section:nth-of-type(3) ul li > p{
+    font-size: 0.9em;
+
+}
+
+main section:nth-of-type(4) ul li > ul{
+    background: var(--section-background);
 
     padding: 0.3em;
     border-radius: 4px;
-    width: 5em;
-}
+    width: 8em;
+    height: 3em;
 
-main section:nth-of-type(4) ul li ol li{
+    grid-area: 1 / 1 / 2 / 2;
+    z-index: 2;
+
+    position: absolute;
+    top: 9.7em;
+    left: 0.5em;
+
     display: flex;
-    justify-content: center;
-
-    margin: 0;
-    padding: 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
 }
 
-main section:nth-of-type(4) ul li ol li p {
+main section:nth-of-type(4) ul li > ul li:nth-of-type(1) {
+    margin-right: 0.5em ;
+}
+
+main section:nth-of-type(4) ul li > ul li p{
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
+
 
 /* span ster 1 */
 main section:nth-of-type(4) ul li span{
@@ -290,11 +321,11 @@ main section:nth-of-type(4) ul li span{
     padding: 0;
 }
 
-section:nth-of-type(4) li:nth-of-type(1) ol:nth-of-type(1) span:nth-of-type(1):before, 
-section:nth-of-type(4) li:nth-of-type(1) ol:nth-of-type(1) span:nth-of-type(2):before, 
-section:nth-of-type(4) li:nth-of-type(1) ol:nth-of-type(1) span:nth-of-type(3):before, 
-section:nth-of-type(4) li:nth-of-type(1) ol:nth-of-type(1) span:nth-of-type(4):before,
-section:nth-of-type(4) li:nth-of-type(1) ol:nth-of-type(1) span:nth-of-type(5):before{
+section:nth-of-type(4) li:nth-of-type(1) ul:nth-of-type(1) span:nth-of-type(1):before, 
+section:nth-of-type(4) li:nth-of-type(1) ul:nth-of-type(1) span:nth-of-type(2):before, 
+section:nth-of-type(4) li:nth-of-type(1) ul:nth-of-type(1) span:nth-of-type(3):before, 
+section:nth-of-type(4) li:nth-of-type(1) ul:nth-of-type(1) span:nth-of-type(4):before,
+section:nth-of-type(4) li:nth-of-type(1) ul:nth-of-type(1) span:nth-of-type(5):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
@@ -311,17 +342,17 @@ main section:nth-of-type(4) ul li span{
     padding: 0;
 }
 
-section:nth-of-type(4) li:nth-of-type(2) ol span:nth-of-type(1):before, 
-section:nth-of-type(4) li:nth-of-type(2) ol span:nth-of-type(2):before, 
-section:nth-of-type(4) li:nth-of-type(2) ol span:nth-of-type(3):before, 
-section:nth-of-type(4) li:nth-of-type(2) ol span:nth-of-type(4):before{
+section:nth-of-type(4) li:nth-of-type(2) ul span:nth-of-type(1):before, 
+section:nth-of-type(4) li:nth-of-type(2) ul span:nth-of-type(2):before, 
+section:nth-of-type(4) li:nth-of-type(2) ul span:nth-of-type(3):before, 
+section:nth-of-type(4) li:nth-of-type(2) ul span:nth-of-type(4):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
     
 }
 
-section:nth-of-type(4) li:nth-of-type(2) ol span:nth-of-type(5):before{
+section:nth-of-type(4) li:nth-of-type(2) ul span:nth-of-type(5):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
@@ -340,10 +371,10 @@ main section:nth-of-type(4) ul li span{
     padding: 0;
 }
 
-section:nth-of-type(4) li:nth-of-type(3) ol span:nth-of-type(1):before, 
-section:nth-of-type(4) li:nth-of-type(3) ol span:nth-of-type(2):before, 
-section:nth-of-type(4) li:nth-of-type(3) ol span:nth-of-type(3):before, 
-section:nth-of-type(4) li:nth-of-type(3) ol span:nth-of-type(4):before{
+section:nth-of-type(4) li:nth-of-type(3) ul span:nth-of-type(1):before, 
+section:nth-of-type(4) li:nth-of-type(3) ul span:nth-of-type(2):before, 
+section:nth-of-type(4) li:nth-of-type(3) ul span:nth-of-type(3):before, 
+section:nth-of-type(4) li:nth-of-type(3) ul span:nth-of-type(4):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
@@ -360,15 +391,15 @@ main section:nth-of-type(4) ul li span{
     padding: 0;
 }
 
-section:nth-of-type(4) li:nth-of-type(4) ol span:nth-of-type(1):before, 
-section:nth-of-type(4) li:nth-of-type(4) ol span:nth-of-type(2):before{
+section:nth-of-type(4) li:nth-of-type(4) ul span:nth-of-type(1):before, 
+section:nth-of-type(4) li:nth-of-type(4) ul span:nth-of-type(2):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
     
 }
 
-section:nth-of-type(4) li:nth-of-type(4) ol span:nth-of-type(3):before{
+section:nth-of-type(4) li:nth-of-type(4) ul span:nth-of-type(3):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
@@ -387,11 +418,11 @@ main section:nth-of-type(4) ul li span{
     padding: 0;
 }
 
-section:nth-of-type(4) li:nth-of-type(5) ol:nth-of-type(1) span:nth-of-type(1):before, 
-section:nth-of-type(4) li:nth-of-type(5) ol:nth-of-type(1) span:nth-of-type(2):before, 
-section:nth-of-type(4) li:nth-of-type(5) ol:nth-of-type(1) span:nth-of-type(3):before, 
-section:nth-of-type(4) li:nth-of-type(5) ol:nth-of-type(1) span:nth-of-type(4):before,
-section:nth-of-type(4) li:nth-of-type(5) ol:nth-of-type(1) span:nth-of-type(5):before{
+section:nth-of-type(4) li:nth-of-type(5) ul:nth-of-type(1) span:nth-of-type(1):before, 
+section:nth-of-type(4) li:nth-of-type(5) ul:nth-of-type(1) span:nth-of-type(2):before, 
+section:nth-of-type(4) li:nth-of-type(5) ul:nth-of-type(1) span:nth-of-type(3):before, 
+section:nth-of-type(4) li:nth-of-type(5) ul:nth-of-type(1) span:nth-of-type(4):before,
+section:nth-of-type(4) li:nth-of-type(5) ul:nth-of-type(1) span:nth-of-type(5):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute;
@@ -408,10 +439,10 @@ main section:nth-of-type(4) ul li span{
     padding: 0;
 }
 
-section:nth-of-type(4) li:nth-of-type(6) ol span:nth-of-type(1):before, 
-section:nth-of-type(4) li:nth-of-type(6) ol span:nth-of-type(2):before, 
-section:nth-of-type(4) li:nth-of-type(6) ol span:nth-of-type(3):before, 
-section:nth-of-type(4) li:nth-of-type(6) ol span:nth-of-type(4):before{
+section:nth-of-type(4) li:nth-of-type(6) ul span:nth-of-type(1):before, 
+section:nth-of-type(4) li:nth-of-type(6) ul span:nth-of-type(2):before, 
+section:nth-of-type(4) li:nth-of-type(6) ul span:nth-of-type(3):before, 
+section:nth-of-type(4) li:nth-of-type(6) ul span:nth-of-type(4):before{
     color: var(--span-ster);
     content: '\2605'; /* Full star in UTF-8 */
     position: absolute; 
@@ -475,8 +506,6 @@ main section:nth-of-type(6) ul:nth-of-type(4) li {
     gap: 0.5em;
 
 }
-
-
 
 /*EIND***section 6*/
 

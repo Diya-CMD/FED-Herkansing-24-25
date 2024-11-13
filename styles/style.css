@@ -143,10 +143,22 @@
 	background-color: var(--nav-background);
   }
 
-  header > ul li a img{
+  header > ul li a img {
 	width: 1.2em;
 	margin: 0.3em;
   }
+
+  /* header > ul li a svg{
+	width: 1.2em;
+	margin: 0.3em;
+
+	fill: none;
+	color: var(--black-text);
+  } */
+
+  /* header > ul li a svg rect{
+	fill: var(--black-text);
+  } */
 
   header > ul li:nth-of-type(11) > a,
   header > ul li:nth-of-type(12) > a{
@@ -170,8 +182,6 @@
 	border-radius: 4px;
 	box-shadow: 0 0 3px var(--drop-shadow);
   }
-
-  
 
   
 /* form */
