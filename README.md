@@ -345,5 +345,7 @@ Color contrast
   3. Laura, javascript
   4. Marina, dark mode
   5. McIntosh, A. (z.d.). Star Rating using only CSS. Codepen. Geraadpleegd op 3 november 2024, van https://codepen.io/mcintosh101/pen/vYypMQ
+  6. W3Schools.com. (z.d.). Geraadpleegd op 15 november 2024, van https://www.w3schools.com/html/html_tables.asp
+  7. ’t Hooft, S. (z.d.). FED 24/25 - States - kleurtjes met has en lightdark - uitwerking. Codepen. Geraadpleegd op 15 november 2024, van https://codepen.io/shooft/pen/xxozyVW?editors=1100
 
 </details>

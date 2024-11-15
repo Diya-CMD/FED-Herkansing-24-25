@@ -11,17 +11,18 @@
 		--footer-background: light-dark(rgb(42,43,60), #18191a);
 		--light-gray: light-dark(#f8f8f8, #1b1c1d) ; 
 
-		--black-text: light-dark(#111, #eee) ;
-
+		--black-text: light-dark(#111, #eee);
 		--white-text: light-dark(#eee, #111);
+        --gray-text: light-dark(#7a7a7a, #eee);
 
 		--drop-shadow: light-dark(#3e4042, rgb(197, 197, 197));
 
 
 	 --dark-blue: #00619d;
      --blue-text: #1675b6;
-	 --gray-text: #7a7a7a;
+	 --gray: #7a7a7a;
 	 --wit: #eee;
+     --zwart: #111;
      
 	 --hover-text: #2196f3; 
      --span-ster: #ffd600;
@@ -36,6 +37,7 @@ a, abbr{
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   
 
 /*section 1*/
@@ -47,14 +49,18 @@ main section:nth-of-type(1){
     overflow: hidden;
 }
 
-
-main section:nth-of-type(1) img:nth-of-type(1){
+main section:nth-of-type(1) li:nth-of-type(1) img{
     width: 40em;
     display: flex;
     align-items: center;
 }
 
-main section:nth-of-type(1) img:nth-of-type(2){
+main section:nth-of-type(1) li:nth-of-type(1) img::before{
+    content: "";
+    color: var(--zwart) ;
+}
+
+main section:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(1){
     width: 1.2em;
 
     position: absolute;
@@ -62,7 +68,7 @@ main section:nth-of-type(1) img:nth-of-type(2){
     left: 7em;
 }
 
-main section:nth-of-type(1) img:nth-of-type(3){
+main section:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(2){
     width: 1.2em;
 
     position: absolute;
@@ -94,6 +100,20 @@ main section:nth-of-type(1) p:nth-of-type(2) {
     color: var(--gray-text);
     position: absolute;
     bottom: 1em;
+}
+
+main section:nth-of-type(1) p:nth-of-type(3) {
+    color: var(--gray-text);
+    position: absolute;
+    bottom: 1em;
+    left: 8.5em;
+}
+
+main section:nth-of-type(1) p:nth-of-type(4) {
+    color: var(--gray-text);
+    position: absolute;
+    bottom: 1em;
+    left: 11em;
 }
 /*EIND***section 1*/
 

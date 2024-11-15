@@ -20,18 +20,19 @@
 		--footer-background: light-dark(rgb(42,43,60), #18191a);
 		--light-gray: light-dark(#f8f8f8, #1b1c1d) ; 
 
-		--black-text: light-dark(#111, #eee) ;
-
+		--black-text: light-dark(#111, #eee);
 		--white-text: light-dark(#eee, #111);
+        --gray-text: light-dark(#7a7a7a, #eee);
 
-		--drop-shadow: light-dark(rgb(197, 197, 197), #3e4042);
+		--drop-shadow: light-dark(#3e4042, rgb(197, 197, 197));
 
 
 	 --dark-blue: #00619d;
      --blue-text: #1675b6;
-	 --gray-text: #7a7a7a;
+	 --gray: #7a7a7a;
 	 --wit: #eee;
-
+     --zwart: #111;
+     
 	 --hover-text: #2196f3; 
      --span-ster: #ffd600;
   }
@@ -148,17 +149,6 @@
 	margin: 0.3em;
   }
 
-  /* header > ul li a svg{
-	width: 1.2em;
-	margin: 0.3em;
-
-	fill: none;
-	color: var(--black-text);
-  } */
-
-  /* header > ul li a svg rect{
-	fill: var(--black-text);
-  } */
 
   header > ul li:nth-of-type(11) > a,
   header > ul li:nth-of-type(12) > a{
@@ -173,15 +163,18 @@
 	grid-auto-flow: column;
   }
 
-  header > ul li:nth-of-type(12) button{
-	text-transform: uppercase;
-	width: 3em;
-	height: 1.8em;
-	background-color: var(--section-background);
-	border: 1px solid var(--nav-background);
-	border-radius: 4px;
-	box-shadow: 0 0 3px var(--drop-shadow);
+  header > ul li:nth-of-type(12) label{
+	grid-column: 2;
   }
+
+ /* ’t Hooft, S. (z.d.). FED 24/25 - States - kleurtjes met has en lightdark - uitwerking. Codepen. Geraadpleegd op 15 november 2024, van https://codepen.io/shooft/pen/xxozyVW?editors=1100 */ 
+:root:has([value="light"]:checked) {
+	color-scheme:light;
+}
+
+:root:has([value="dark"]:checked) {
+	color-scheme:dark;
+}
 
   
 /* form */

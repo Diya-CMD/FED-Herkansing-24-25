@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="titles" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.83 210.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #7a7a7a;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="11.09" y="25.4" width="192" height="123.04" rx="1.37" ry="1.37"/>
+  <line class="cls-1" x1="44.9" y1="179.54" x2="169.29" y2="179.54"/>
+  <line class="cls-1" x1="107.09" y1="183.6" x2="107.09" y2="148.44"/>
+</svg>
