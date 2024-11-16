@@ -149,6 +149,11 @@
 	margin: 0.3em;
   }
 
+  header > ul li a svg {
+	width: 1.2em;
+	margin: 0.3em;
+	stroke: var(--black-text); 
+  }
 
   header > ul li:nth-of-type(11) > a,
   header > ul li:nth-of-type(12) > a{
