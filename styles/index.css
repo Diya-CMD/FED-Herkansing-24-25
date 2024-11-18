@@ -59,16 +59,19 @@ main section:nth-of-type(1) li:nth-of-type(1) img::before{
     color: var(--zwart) ;
 }
 
-main section:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(1){
+main section:nth-of-type(1) li:nth-of-type(2) svg:nth-of-type(1){
     width: 1.2em;
+    fill: var(--gray);
 
     position: absolute;
     bottom: 1em;
     left: 7em;
 }
 
-main section:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(2){
+main section:nth-of-type(1) li:nth-of-type(2) svg:nth-of-type(2){
     width: 1.2em;
+    fill:none;
+    stroke: var(--gray);
 
     position: absolute;
     bottom: 1em;
@@ -76,8 +79,8 @@ main section:nth-of-type(1) li:nth-of-type(2) img:nth-of-type(2){
 }
 
 main section:nth-of-type(1) h2 {
-    color: var(--white-text);
-    text-shadow: -1px 0 var(--black-text), 0 1px var(--black-text), 1px 0 var(--black-text), 0 -1px var(--black-text);
+    color: var(--dark-blue);
+    /* text-shadow: -1px 0 var(--black-text), 0 1px var(--black-text), 1px 0 var(--black-text), 0 -1px var(--black-text); */
     padding: 0.5em;
     padding-bottom: 0;
 
@@ -96,24 +99,28 @@ main section:nth-of-type(1) p:nth-of-type(1) {
 }
 
 main section:nth-of-type(1) p:nth-of-type(2) {
-    color: var(--gray-text);
+    color: var(--gray);
     position: absolute;
     bottom: 1em;
+
+    padding: 0.5em;
+    padding-bottom: 0;
 }
 
 main section:nth-of-type(1) p:nth-of-type(3) {
-    color: var(--gray-text);
+    color: var(--gray);
     position: absolute;
     bottom: 1em;
     left: 8.5em;
 }
 
 main section:nth-of-type(1) p:nth-of-type(4) {
-    color: var(--gray-text);
+    color: var(--gray);
     position: absolute;
     bottom: 1em;
     left: 11em;
 }
+
 /*EIND***section 1*/
 
 /*section 2*/
@@ -554,8 +561,7 @@ main section:nth-of-type(6) ul:nth-of-type(3){
     grid-auto-flow: column; 
 
     transform-style:preserve-3d;
-}
-   
+}  
 
 main section:nth-of-type(6) ul:nth-of-type(1) li,
 main section:nth-of-type(6) ul:nth-of-type(3) li{
@@ -607,6 +613,20 @@ main section:nth-of-type(6) ul:nth-of-type(4) li svg{
     fill: var(--gray-text);
 }
 
+main section:nth-of-type(6) ul:nth-of-type(2) li:nth-of-type(1) svg,
+main section:nth-of-type(6) ul:nth-of-type(2) li:nth-of-type(2) svg,
+main section:nth-of-type(6) ul:nth-of-type(4) li:nth-of-type(1) svg,
+main section:nth-of-type(6) ul:nth-of-type(4) li:nth-of-type(2) svg{
+ fill:none;
+ stroke: var(--gray-text);
+ stroke-width: 8px;
+}
+
+main section:nth-of-type(6) ul:nth-of-type(2) li:nth-of-type(4) svg,
+main section:nth-of-type(6) ul:nth-of-type(4) li:nth-of-type(4) svg{
+ fill:none;
+ stroke: var(--gray-text);
+}
 
 /*EIND***section 6*/
 
@@ -626,7 +646,6 @@ main section:nth-of-type(7) > ul:nth-of-type(1) li{
     margin-right: 8em;
 
     scroll-snap-type: mandatory;
-
 } 
 
 main section:nth-of-type(7)  ul:nth-of-type(1) li a { 
@@ -638,7 +657,6 @@ main section:nth-of-type(7)  ul:nth-of-type(1) li a {
 main section:nth-of-type(7)  ul:nth-of-type(1) li:nth-of-type(1) a { 
     color: var(--blue-text);
 } 
-
 
 /* Tweede ul */
 main section:nth-of-type(7) ul:nth-of-type(2) a {
