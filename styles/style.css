@@ -147,6 +147,20 @@
 
 	stroke-miterlimit: 10;
 	stroke-width: 8px;
+  }
+
+  header > ul li:nth-of-type(1) svg,
+  header > ul li:nth-of-type(2) svg,
+  header > ul li:nth-of-type(3) svg,
+  header > ul li:nth-of-type(4) svg,
+  header > ul li:nth-of-type(5) svg,
+  header > ul li:nth-of-type(6) svg,
+  header > ul li:nth-of-type(7) svg,
+  header > ul li:nth-of-type(8) svg,
+  header > ul li:nth-of-type(9) svg,
+  header > ul li:nth-of-type(10) svg,
+  header > ul li:nth-of-type(11) svg,
+  header > ul li:nth-of-type(14) svg{
 	fill: none;
   }
 
@@ -158,19 +172,31 @@
 
   /* 7de, 8ste, 9de, 10de, 11ste svg */
   header > ul li:nth-of-type(7) svg g rect:nth-of-type(2),
-  header > ul li:nth-of-type(10) svg g rect:nth-of-type(2) {
+  header > ul li:nth-of-type(10) svg g rect:nth-of-type(2),
+  header > ul li:nth-of-type(11) svg g path:nth-of-type(6) {
 	fill: var(--section-background);
   }
 
   header > ul li:nth-of-type(7) svg g rect:nth-of-type(3),
-  header > ul li:nth-of-type(10) svg g rect:nth-of-type(4) {
+  header > ul li:nth-of-type(10) svg g rect:nth-of-type(4),
+  header > ul li:nth-of-type(11) svg g path:nth-of-type(3),
+  header > ul li:nth-of-type(11) svg g path:nth-of-type(4),
+  header > ul li:nth-of-type(11) svg g path:nth-of-type(5),
+  header > ul li:nth-of-type(11) svg g path:nth-of-type(8),
+  header > ul li:nth-of-type(11) svg g path:nth-of-type(9),
+  header > ul li:nth-of-type(11) svg g path:nth-of-type(10),
+  header > ul li:nth-of-type(11) svg g path:nth-of-type(11),
+  header > ul li:nth-of-type(11) svg g rect,
+  header > ul li:nth-of-type(14) svg g rect {
 	stroke-width: 0px;
   }
 
   header > ul li:nth-of-type(7) svg g rect:nth-of-type(1),
   header > ul li:nth-of-type(7) svg g path:nth-of-type(1),
   header > ul li:nth-of-type(7) svg g path:nth-of-type(4),
-  header > ul li:nth-of-type(8) svg g path {
+  header > ul li:nth-of-type(8) svg g path,
+  header > ul li:nth-of-type(13) svg g rect,
+  header > ul li:nth-of-type(13) svg g ellipse{
 	stroke: var(--black-text);
   }
 
@@ -184,8 +210,20 @@
   }
 
   header > ul li:nth-of-type(8) svg g rect,
-  header > ul li:nth-of-type(9) svg g rect {
+  header > ul li:nth-of-type(9) svg g rect, 
+  header > ul li:nth-of-type(13) svg g rect:nth-of-type(1),
+  header > ul li:nth-of-type(13) svg g rect:nth-of-type(2),
+  header > ul li:nth-of-type(13) svg g path:nth-of-type(1),
+  header > ul li:nth-of-type(13) svg g ellipse{
 	stroke-width: 0px;
+ }
+
+ /* 13de svg */
+
+header > ul li:nth-of-type(13) svg g path:nth-of-type(4),
+header > ul li:nth-of-type(13) svg g path:nth-of-type(2),
+header > ul li:nth-of-type(13) svg g rect:nth-of-type(2)
+	{fill: none;
  }
 
  /* 10de svg */
@@ -195,6 +233,25 @@
  header > ul li:nth-of-type(10) svg g rect:nth-of-type(3){
 	stroke-miterlimit: 10;
 	fill: var(--section-background);
+ }
+
+ /* 11ste svg */
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(3),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(4),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(5),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(8),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(9),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(10),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(11){
+	fill: var(--blue-text);
+ }
+
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(6),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(1),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(2),
+ header > ul li:nth-of-type(11) svg g path:nth-of-type(7){
+	stroke: var(--blue-text);
+	stroke-miterlimit: 10;
  }
 
   /* eind svg */
