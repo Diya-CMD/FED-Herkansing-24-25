@@ -6,11 +6,6 @@
 	font-family: Helvetica, Arial, sans-serif;
   
   }
-
-  /* @font-face {
-	font-family: lato;
-	src: url(../lato.woff2);
-  } */
   
   :root {
 	color-scheme: light dark;
@@ -43,10 +38,6 @@
 
   a, abbr{
 	text-decoration: none;
-  }
-
-  svg{
-	fill: var(--black-text);
   }
 
   button{
@@ -125,12 +116,12 @@
 
 	z-index: 200;
 
-	transform: translateY(-200em);
+	/* transform: translateY(-200em); */
   }
 
-  header > ul.inBeeld {
+  /* header > ul.inBeeld {
 	transform: translateY(0);
-  }
+  } */
 
   header > ul li a{
 	font-size: 14px;
@@ -153,13 +144,56 @@
 	width: 1.2em;
 	margin: 0.3em;
 	stroke: var(--black-text); 
+
+	stroke-miterlimit: 10;
+	stroke-width: 8px;
+	fill: none;
   }
+
+  /* 5de svg */
+  header > ul li:nth-of-type(5) svg g text {
+	font-size: 69.86px;
+	font-variation-settings: 'wght' 900;
+  }
+
+  /* 7de, 8ste, 9de svg */
+  header > ul li:nth-of-type(7) svg g rect:nth-of-type(2),
+  header > ul li:nth-of-type(10) svg g :nth-of-type(2) {
+	fill: var(--section-background);
+  }
+
+  header > ul li:nth-of-type(7) svg g rect:nth-of-type(3),
+  header > ul li:nth-of-type(10) svg g rect:nth-of-type(4) {
+	stroke-width: 0px;
+  }
+
+  header > ul li:nth-of-type(7) svg g rect:nth-of-type(1),
+  header > ul li:nth-of-type(7) svg g path:nth-of-type(1),
+  header > ul li:nth-of-type(7) svg g path:nth-of-type(4),
+  header > ul li:nth-of-type(8) svg g path {
+	stroke: var(--black-text);
+  }
+
+  header > ul li:nth-of-type(7) svg g path:nth-of-type(2), 
+  header > ul li:nth-of-type(7) svg g path:nth-of-type(3),
+  header > ul li:nth-of-type(7) svg g path:nth-of-type(5),
+  header > ul li:nth-of-type(7) svg g path:nth-of-type(6),
+  header > ul li:nth-of-type(7) svg g line:nth-of-type(1), 
+  header > ul li:nth-of-type(7) svg g line:nth-of-type(2){
+	stroke: var(--section-background);
+  }
+
+  header > ul li:nth-of-type(8) svg g rect,
+  header > ul li:nth-of-type(9) svg g rect {
+	stroke-width: 0px;
+ }
+
+  /* eind svg */
 
   header > ul li:nth-of-type(11) > a,
   header > ul li:nth-of-type(12) > a{
 	color: var(--blue-text);
   }
-
 
   header > ul li:nth-of-type(12){
     border-bottom: 1px solid var(--nav-background);
