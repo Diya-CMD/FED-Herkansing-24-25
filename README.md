@@ -249,6 +249,7 @@ Color contrast
 
   ### Verbeteringen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - pakt de headers op de profiel pagina.
 
   ### Wat ik nog moet verbeteren
   - 
@@ -347,5 +348,6 @@ Color contrast
   5. McIntosh, A. (z.d.). Star Rating using only CSS. Codepen. Geraadpleegd op 3 november 2024, van https://codepen.io/mcintosh101/pen/vYypMQ
   6. W3Schools.com. (z.d.). Geraadpleegd op 15 november 2024, van https://www.w3schools.com/html/html_tables.asp
   7. ’t Hooft, S. (z.d.). FED 24/25 - States - kleurtjes met has en lightdark - uitwerking. Codepen. Geraadpleegd op 15 november 2024, van https://codepen.io/shooft/pen/xxozyVW?editors=1100
+  8.  ProgrammingTT. (2021, 18 juni). Button Click Sound Effect | In HTML CSS and JavaScript | HTML Tutorial For Beginners [Video]. YouTube. https://www.youtube.com/watch?v=0R6rZngcHGg
 
 </details>
