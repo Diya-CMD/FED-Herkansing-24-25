@@ -236,7 +236,6 @@
  }
 
  /* 13de svg */
-
 header > ul li:nth-of-type(13) svg g path:nth-of-type(4),
 header > ul li:nth-of-type(13) svg g path:nth-of-type(2),
 header > ul li:nth-of-type(13) svg g rect:nth-of-type(2)
@@ -270,7 +269,6 @@ header > ul li:nth-of-type(13) svg g rect:nth-of-type(2)
 	stroke: var(--blue-text);
 	stroke-miterlimit: 10;
  }
-
   /* eind svg */
 
   header > ul li:nth-of-type(11) > a,
