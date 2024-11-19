@@ -44,6 +44,23 @@
 	cursor: pointer;
   }
   
+  /* guilietta herkansing */
+  @keyframes heart-shine{
+	to{
+		transform: translate(0, -30vw);
+		opacity: 100%;
+	}
+  }
+
+  .cursor-trail{
+	position: absolute;
+	pointer-events: none;
+	width: 30px;
+	height: 30px;
+	opacity: 0.5;
+
+	animation: heart-shine 2s ease-out forwards;
+  }
 
   header{
 	  background-color: var(--dark-blue);
@@ -365,8 +382,9 @@ header > form button{
 	  border: none;
   }
 
-  header nav button img{
+header nav button svg{
 	width: 3em;
+	fill: var(--black-text);
 }
   /*EIND*****BURGER MENU + CODE VAN DE LES****/
   

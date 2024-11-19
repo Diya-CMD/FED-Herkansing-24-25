@@ -1,3 +1,23 @@
+// //MUIS ICOONTJE-Guilietta
+document.addEventListener('click', (event) => {
+  //Create a new image element for the trail
+    const trail = document.createElement('img');
+      trail.src = 'images/heart-shine.svg';
+      trail.classList.add('cursor-trail');
+
+  //Set the trail's position to the cursor's position
+      trail.style.left = `${event.pageX - 15}px`;
+      trail.style.top = `${event.pageY - 15}px`;
+      
+  //Append the trail to the body
+      document.body.appendChild(trail);
+
+      trail.addEventListener("animationend", function(){
+        trail.remove();
+      })
+
+})
+
 
 // stap 1: zoek de menu-button op en sla die op in een variabele. De selectie is hetzelfde als in CSS en Java. > is voor een direct kind.
 const menuOpenButton= document.querySelector("header section > button"); 
@@ -59,4 +79,15 @@ function closeMenu(){
   zoekFunctie.classList.remove("startSearch");
 
 }
+
+//profiel audio
+const audio = document.querySelector("audio");
+const audioButton = document.querySelector("main section:nth-of-type(1) ul li:nth-of-type(10) button")
+audioButton.onclick = audioClick;
+
+function audioClick(){
+  audio.play();
+
+}
+
 
