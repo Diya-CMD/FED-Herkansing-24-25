@@ -245,10 +245,11 @@ Color contrast
 
   ### Verbeteringen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-  - 
+  - alt teksten zijn beter uitgewerkt
 
   ### Wat ik nog moet verbeteren
   - De eerste section op de homepagina, de ::before wilt nog steeds niet werken.
+  - Bij latest reviews leest het die review gedeelte niet. (heb het toegevoegd aan de alt tekst van de img)
 </details>
 
 
