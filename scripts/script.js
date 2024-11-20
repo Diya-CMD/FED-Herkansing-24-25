@@ -103,8 +103,30 @@ setTimeout(() => {
   }, 1000);
 }
 
-//profiel radiobutton
+//profiel radiobutton, chatgpt
+const radioButtons = document.querySelectorAll('input[name="toggle"]'); 
 
+const table = document.querySelector('main section:nth-of-type(2) table');
+const image = document.querySelector('main section:nth-of-type(2) img');
 
+// Zorg ervoor dat bij het laden van de pagina alleen de tabel zichtbaar is
+window.addEventListener('DOMContentLoaded', () => {
+  table.style.display = 'table'; // Toon de tabel
+  image.style.display = 'none'; // Verberg de afbeelding
+});
+
+radioButtons.forEach((radio) => {
+  radio.addEventListener('change', () => {
+    if (radio.value === 'table') {
+      // Toon de tabel, verberg de afbeelding
+      table.style.display = 'table';
+      image.style.display = 'none';
+    } else if (radio.value === 'image') {
+      // Toon de afbeelding, verberg de tabel
+      table.style.display = 'none';
+      image.style.display = 'block';
+    }
+  });
+});
 
 
