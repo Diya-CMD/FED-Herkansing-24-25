@@ -88,7 +88,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 Headings
   <ul>
-    <li>De h1 is op de homepagina hidden.</li>
     <li>Kopelementen worden niet weergeven in aflopende volgorde. h1-> h2-> h6</li>
   </ul>
 
@@ -246,6 +245,7 @@ Color contrast
   ### Verbeteringen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
   - alt teksten zijn beter uitgewerkt
+  - volgorde van de kopjes zijn goed.
 
   ### Wat ik nog moet verbeteren
   - De eerste section op de homepagina, de ::before wilt nog steeds niet werken.
