@@ -232,10 +232,6 @@ Color contrast
 
   - Lelijke manier icoon veranderen: filter: invert(1);. Van wit naar zwart of zwart naar wit. 
   - Mooie manier icoon veranderen: svg openen in studio code, de link pakken en in je html zetten. svg benoemen in de CSS en kleur veranderen
-
-
-
-
 </details>
 
 
@@ -349,5 +345,6 @@ Color contrast
   6. W3Schools.com. (z.d.). Geraadpleegd op 15 november 2024, van https://www.w3schools.com/html/html_tables.asp
   7. ’t Hooft, S. (z.d.). FED 24/25 - States - kleurtjes met has en lightdark - uitwerking. Codepen. Geraadpleegd op 15 november 2024, van https://codepen.io/shooft/pen/xxozyVW?editors=1100
   8.  ProgrammingTT. (2021, 18 juni). Button Click Sound Effect | In HTML CSS and JavaScript | HTML Tutorial For Beginners [Video]. YouTube. https://www.youtube.com/watch?v=0R6rZngcHGg
+  9. ChatGPT - Notificatie rondje met JS. (z.d.). ChatGPT. https://chatgpt.com/share/673dc74b-3c54-8006-9f73-ee5c8e0c0042
 
 </details>

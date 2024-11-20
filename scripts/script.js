@@ -80,14 +80,31 @@ function closeMenu(){
 
 }
 
-//profiel audio
+// //profiel audio. ChatGPT - Notificatie rondje met JS. (z.d.). ChatGPT. https://chatgpt.com/share/673dc74b-3c54-8006-9f73-ee5c8e0c0042
 const audio = document.querySelector("audio");
 const audioButton = document.querySelector("main section:nth-of-type(1) ul li:nth-of-type(10) button")
 audioButton.onclick = audioClick;
 
 function audioClick(){
-  audio.play();
+  const svgIcon = audioButton.querySelector("svg");
 
+
+const spinner = document.createElement("div");
+  spinner.classList.add("loading-spinner");
+
+svgIcon.style.display = "none";
+  audioButton.appendChild(spinner);
+
+setTimeout(() => {
+  spinner.remove();
+    svgIcon.style.display = "inline-block";
+
+    audio.play();
+  }, 1000);
 }
+
+//profiel radiobutton
+
+
 
 

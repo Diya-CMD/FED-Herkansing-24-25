@@ -43,7 +43,10 @@
   button{
 	cursor: pointer;
   }
-  
+
+
+
+
   /* guilietta herkansing */
   @keyframes heart-shine{
 	to{
@@ -341,7 +344,7 @@ header > form button{
 
 /* header nav */
   nav{
-	  margin-left: 7em;
+	  margin-left: 15em;
 	  padding: 2em;
 	  background-color: var(--nav-background);
   
@@ -385,6 +388,29 @@ header nav button svg{
 	fill: var(--black-text);
 }
   /*EIND*****BURGER MENU + CODE VAN DE LES****/
+
+
+  /* BUTTON NOTIF */
+  header > section button:nth-of-type(3),
+  main section:nth-of-type(7) ul li:nth-of-type(1) button{
+	position: relative;
+  }
+
+  .notification-badge {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	font-weight: bold;
+}
   
   main{
 	  margin: 1em;
