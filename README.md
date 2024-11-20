@@ -245,10 +245,10 @@ Color contrast
 
   ### Verbeteringen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-  - pakt de headers op de profiel pagina.
+  - 
 
   ### Wat ik nog moet verbeteren
-  - 
+  - De eerste section op de homepagina, de ::before wilt nog steeds niet werken.
 </details>
 
 
