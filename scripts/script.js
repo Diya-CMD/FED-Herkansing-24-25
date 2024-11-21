@@ -119,7 +119,7 @@ radioButtons.forEach((radio) => {
   radio.addEventListener('change', () => {
     if (radio.value === 'table') {
       // Toon de tabel, verberg de afbeelding
-      table.style.display = 'table';
+      table.style.display = 'table'; //css
       image.style.display = 'none';
     } else if (radio.value === 'image') {
       // Toon de afbeelding, verberg de tabel
